@@ -1,0 +1,62 @@
+name: Playwright Tests with Allure
+
+on:
+  push:
+    branches: [main]        # Change if needed
+  pull_request:
+    branches: [main]
+
+jobs:
+  playwright-test:
+    runs-on: ubuntu-latest
+    steps:
+      # 1️⃣ Checkout the repo
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      # 2️⃣ Setup Node.js
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20    # Match your project Node version
+
+      # 3️⃣ Install dependencies
+      - name: Install dependencies
+        run: npm ci
+
+      # 4️⃣ Install Playwright browsers
+      - name: Install Playwright browsers
+        run: npx playwright install --with-deps
+
+      # 5️⃣ Run tests and generate Allure results
+      - name: Run Playwright tests
+        run: npx playwright test --reporter=allure-playwright
+        continue-on-error: true   # Continue to capture artifacts even if tests fail
+
+      # 6️⃣ Upload Allure results
+      - name: Upload Allure Results
+        uses: actions/upload-artifact@v3
+        with:
+          name: allure-results
+          path: allure-results/
+
+      # 7️⃣ Upload screenshots & videos on failure
+      - name: Upload Playwright artifacts
+        if: failure()
+        uses: actions/upload-artifact@v3
+        with:
+          name: playwright-artifacts
+          path: |
+            test-results/screenshots/
+            test-results/videos/
+
+      # 8️⃣ Generate Allure report (optional)
+      - name: Generate Allure report
+        run: npx allure generate allure-results --clean -o allure-report
+
+      # 9️⃣ Upload Allure report
+      - name: Upload Allure report
+        uses: actions/upload-artifact@v3
+        with:
+          name: allure-report
+          path: allure-report/
