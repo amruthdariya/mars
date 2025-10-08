@@ -15,7 +15,7 @@ function readCsvColumn(filePath, columnName) {
 module.exports = { readCsvColumn };
 
 // Example usage
-const filePath = 'C:/Users/Blubirch.DESKTOP-EN2LGLN/PLAYWRIGHT AUTOMATION/testdata/prd_file.csv';
+// const filePath = 'C:/Users/Blubirch.DESKTOP-EN2LGLN/PLAYWRIGHT AUTOMATION/testdata/prd_file.csv';
 //const inwardDate = readCsvColumn(filePath, 'INWARD_REFERENCE_DOCUMENT_DATE');
 
 //console.log('Date from CSV:', inwardDate);

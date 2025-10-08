@@ -15,7 +15,9 @@ const { remote } = require('webdriverio');
 const caps = require('../utils/capabilities');
 const prd = require('../utils/prddatacreation');
 const assert = require('assert');
+const path = require('path');
 test.describe.configure({ mode: 'serial' });
+
 
 /////
 const { readCsvColumn} = require('../utils/filereader');
@@ -39,8 +41,9 @@ let serialNumber1;
 let serialNumber2;
 
 test('Use CSV date in test', async ({ page }) => {
-  const filePath = 'C:/Users/Blubirch.DESKTOP-EN2LGLN/PLAYWRIGHT AUTOMATION/testdata/prd_file.csv';
-   irdno = readCsvColumn(filePath, 'INWARD_REFERENCE_DOCUMENT_NUMBER');
+  const filePath = path.join(__dirname, '../testdata', 'prd_file.csv');
+  console.log(filePath);
+    irdno = readCsvColumn(filePath, 'INWARD_REFERENCE_DOCUMENT_NUMBER');
    articleid = readCsvColumn(filePath, 'SKU_CODE');
     serialNumber1 = readCsvColumn(filePath, 'SERIAL_NUMBER1');
      serialNumber2 = readCsvColumn(filePath, 'SERIAL_NUMBER2');
@@ -131,17 +134,18 @@ test.setTimeout(60000);
 
   // Activity
   await inspectionPage.answerQuestions();
+  const imagePath = path.resolve(__dirname, '../testdata/img17.jpg');
   await inspectionPage.uploadFile1(
     page.locator('ion-content').filter({ hasText: 'Packaging Condition Packaging' }).getByRole('img'),
-    'C:\\Users\\Blubirch.DESKTOP-EN2LGLN\\Pictures\\img7.jpg'
+    imagePath
   );
   await inspectionPage.uploadFile2(
     page.locator('ion-content').filter({ hasText: 'Physical Condition Physical' }).getByRole('img'),
-    'C:\\Users\\Blubirch.DESKTOP-EN2LGLN\\Pictures\\img7.jpg'
+    imagePath
   );
   await inspectionPage.uploadFile3(
     page.locator('ion-content').filter({ hasText: 'Physical Condition Damage' }).getByRole('img'),
-    'C:\\Users\\Blubirch.DESKTOP-EN2LGLN\\Pictures\\img7.jpg'
+    imagePath
   );
 
   // Finish & submit
@@ -156,14 +160,14 @@ test('3-Return approval By BSM and RCSM',async({page}) =>{
     await returnApprovalPage.login();
   // FIRST APPROVER
   await returnApprovalPage.navigateToReturnApproval();
-  await returnApprovalPage.approveRefund("89", "Approved for refund");
+  await returnApprovalPage.approveRefund("89", "Approved for refund"); //TODO
   await returnApprovalPage.logout();
   // SECOND APPROVER
  // await loginPage.login("APR01", "blubirch@123");
   await returnApprovalPage.navigate();
   await returnApprovalPage.login2();
   await returnApprovalPage.navigateToReturnApproval();
-  await returnApprovalPage.approveRefund("89", "Approved for refund");
+  await returnApprovalPage.approveRefund("89", "Approved for refund"); //TODO
   //await returnApprovalPage.logout();
 });
 
@@ -213,7 +217,8 @@ test('4-Logistics Details Update By Logistics Manager', async ({ page }) => {
     ]);
   
     // Set the file(s) to upload
-    await fileChooser1.setFiles('C:/Users/Blubirch.DESKTOP-EN2LGLN/PLAYWRIGHT AUTOMATION/testdata/prd_file.csv');
+    const filePath = path.join(__dirname, '../testdata', 'prd_file.csv');
+    await fileChooser1.setFiles(filePath);
     await page.waitForTimeout(3000);
     await page.getByRole('button', { name: 'Confirm' }).click();
     await page.getByRole('button', { name: 'Finish' }).click();

@@ -18,7 +18,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: 20    # Match your project Node version
+          node-version: 23    # Match your project Node version
 
       # 3️⃣ Install dependencies
       - name: Install dependencies
@@ -60,3 +60,17 @@ jobs:
         with:
           name: allure-report
           path: allure-report/
+
+      # 🔟 Install Appium Server
+      - name: Install Appium globally
+        run: npm install -g appium
+
+     # 1️⃣1️⃣ Start Appium globally
+      - name: Start Appium Server
+        run: |
+          nohup appium >/dev/null 2>&1 &
+          npx wait-port 4723 
+        timeout-minutes: 2      
+
+
+
