@@ -5,7 +5,7 @@ module.exports = {
     capabilities: {
         platformName: 'Android',
         deviceName: 'RZCX20C3RVT', // your emulator/device name
-        app: 'C:/Users/Blubirch.DESKTOP-EN2LGLN/PLAYWRIGHT AUTOMATION/testdata/RIMS2-whirlpoolDemo-1.0.104.apk', // full path to your APK
+        app: '../testdata/RIMS2-1.0.104.apk', // full path to your APK
         automationName: 'UiAutomator2',
         appWaitActivity: '*', // wait for any activity
         newCommandTimeout: 300,
