@@ -1,0 +1,348 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e5]:
+    - generic [ref=e6]:
+      - navigation [ref=e7]:
+        - generic [ref=e8]:
+          - link "Blubirch Logo" [ref=e13] [cursor=pointer]:
+            - /url: "#"
+            - img "Blubirch Logo" [ref=e14] [cursor=pointer]
+          - generic [ref=e16]:
+            - button "Tag ID" [ref=e17] [cursor=pointer]:
+              - generic [ref=e18] [cursor=pointer]: Tag ID
+            - button "IRD" [ref=e19] [cursor=pointer]:
+              - generic [ref=e20] [cursor=pointer]: IRD
+          - generic [ref=e25]:
+            - generic [ref=e27]:
+              - generic [ref=e29]: 󰍉
+              - textbox "Search-Item" [ref=e31]
+              - generic [ref=e33]: 󰊓
+            - alert [ref=e34]
+          - listbox [ref=e36]:
+            - generic [ref=e39] [cursor=pointer]:
+              - img [ref=e40] [cursor=pointer]
+              - text: RIA
+              - button "󰅀" [ref=e41] [cursor=pointer]
+            - generic [ref=e42]:
+              - generic [ref=e44] [cursor=pointer]:
+                - img [ref=e45] [cursor=pointer]
+                - text: RIMS
+                - button "󰅂" [ref=e46] [cursor=pointer]
+              - group "󰅂" [ref=e49]:
+                - listbox [ref=e50]:
+                  - link "PRD" [ref=e51] [cursor=pointer]:
+                    - /url: /api/v1/prd/PRD
+                    - generic [ref=e55] [cursor=pointer]: PRD
+                - listbox [ref=e56]:
+                  - generic [ref=e61] [cursor=pointer]: Disposition
+                - listbox [ref=e64]:
+                  - link "Inwarding" [ref=e65] [cursor=pointer]:
+                    - /url: /api/v2/inward
+                    - generic [ref=e69] [cursor=pointer]: Inwarding
+                - listbox [ref=e70]:
+                  - link "Grading" [ref=e71] [cursor=pointer]:
+                    - /url: /api/v2/grading
+                    - generic [ref=e75] [cursor=pointer]: Grading
+                - listbox [ref=e76]:
+                  - link "Pending Approval" [ref=e77] [cursor=pointer]:
+                    - /url: /api/v1/warehouse/physical_inspection/Approval
+                    - generic [ref=e81] [cursor=pointer]: Pending Approval
+                - listbox [ref=e82]:
+                  - link "Change Disposition" [ref=e83] [cursor=pointer]:
+                    - /url: /api/v2/rims/change_disposition
+                    - generic [ref=e87] [cursor=pointer]: Change Disposition
+                - listbox [ref=e88]:
+                  - link "Put Away / Pick Up" [ref=e89] [cursor=pointer]:
+                    - /url: /api/v1/warehouse/put_away
+                    - generic [ref=e93] [cursor=pointer]: Put Away / Pick Up
+                - listbox [ref=e94]:
+                  - link "Transfer" [ref=e95] [cursor=pointer]:
+                    - /url: /api/v2/forward/transfer
+                    - generic [ref=e99] [cursor=pointer]: Transfer
+                - listbox [ref=e100]:
+                  - link "Dispatch" [ref=e101] [cursor=pointer]:
+                    - /url: /api/v2/reverse/dispatch
+                    - generic [ref=e105] [cursor=pointer]: Dispatch
+                - listbox [ref=e106]:
+                  - link "Cycle Count" [ref=e107] [cursor=pointer]:
+                    - /url: /api/v1/warehouse/physical_inspection
+                    - generic [ref=e111] [cursor=pointer]: Cycle Count
+                - listbox [ref=e112]:
+                  - link "Claim Tracking" [ref=e113] [cursor=pointer]:
+                    - /url: /api/v1/3p-claim
+                    - generic [ref=e117] [cursor=pointer]: Claim Tracking
+                - listbox [ref=e118]:
+                  - link "Generate IDs" [ref=e119] [cursor=pointer]:
+                    - /url: /api/v2/generateTrackIds/generate
+                    - generic [ref=e123] [cursor=pointer]: Generate IDs
+            - generic [ref=e126] [cursor=pointer]:
+              - img [ref=e127] [cursor=pointer]
+              - text: Analytics
+              - button "󰅀" [ref=e128] [cursor=pointer]
+            - link "Notification" [ref=e129] [cursor=pointer]:
+              - /url: /alert-component
+              - generic [ref=e131] [cursor=pointer]:
+                - img [ref=e132] [cursor=pointer]
+                - generic [ref=e133] [cursor=pointer]: Notification
+            - generic [ref=e136] [cursor=pointer]:
+              - img [ref=e137] [cursor=pointer]
+              - text: Settings
+              - button "󰅀" [ref=e138] [cursor=pointer]
+      - button [ref=e139] [cursor=pointer]:
+        - generic [ref=e141] [cursor=pointer]: 󰄽
+    - generic [ref=e143]:
+      - generic [ref=e145]:
+        - generic [ref=e146]:
+          - generic [ref=e147]:
+            - text: Liquidation
+            - generic [ref=e148]:
+              - link "Create Lot (Competitive Bidding)" [ref=e149] [cursor=pointer]:
+                - /url: /v1/warehouse/liquidationNew
+                - generic [ref=e150] [cursor=pointer]: Create Lot (Competitive Bidding)
+              - img [ref=e151]
+              - generic [ref=e153]: Create Lot
+            - generic:
+              - link:
+                - /url: /v1/warehouse/liquidation
+          - generic [ref=e154]:
+            - img [ref=e156] [cursor=pointer]
+            - generic [ref=e158]:
+              - generic [ref=e160]: dava
+              - generic [ref=e162]: admin
+            - combobox [ref=e166]:
+              - generic [ref=e167]:
+                - generic: ALL RPA
+                - textbox "ALL RPA ALL RPA" [ref=e169] [cursor=pointer]
+              - button "Open" [ref=e171] [cursor=pointer]: 󰍝
+        - separator [ref=e172]
+      - generic [ref=e175]:
+        - generic [ref=e176]:
+          - generic [ref=e177]:
+            - generic [ref=e179]: Lot Name
+            - generic [ref=e181]:
+              - generic [ref=e183]:
+                - textbox "Lot Name Lot Name" [ref=e185]: Lot || Top Brand || 127 items || As in condition || Hyderabad || 237328374931353 || 18:45
+                - generic:
+                  - generic:
+                    - generic: Lot Name
+              - alert [ref=e186]:
+                - generic [ref=e188]: "Standard Lot Name structure: Category||Brand||City||Enddate"
+          - generic [ref=e189]:
+            - generic [ref=e191]: Lot Description
+            - generic [ref=e193]:
+              - generic [ref=e195]:
+                - textbox "Lot Description Lot Description" [ref=e197]: Lot || Top Brand || 127 items || As in Condition || Hyderabad || 237328374931353 || 18:45
+                - generic:
+                  - generic:
+                    - generic: Lot Description
+              - alert [ref=e198]
+          - generic [ref=e200]:
+            - generic [ref=e202]: Price details
+            - generic [ref=e204]:
+              - combobox [ref=e206]:
+                - generic [ref=e208]:
+                  - generic [ref=e210]: "1000"
+                  - textbox "Bid Value to be Multiple of Bid Value to be Multiple of" [ref=e211]: "1000"
+                - button "Open" [ref=e213] [cursor=pointer]: 󰍝
+                - generic:
+                  - generic:
+                    - generic: Bid Value to be Multiple of
+              - alert [ref=e214]
+            - generic [ref=e216]:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - textbox "MRP MRP" [disabled]: 7,000
+                    - generic:
+                      - generic:
+                        - generic: MRP
+                - alert
+          - generic [ref=e217]:
+            - generic [ref=e220]:
+              - generic [ref=e222]:
+                - textbox "Buy Now Price (₹) Buy Now Price (₹)" [ref=e224]: 5,000
+                - generic:
+                  - generic:
+                    - generic: Buy Now Price (₹)
+              - alert [ref=e225]
+            - generic [ref=e228]:
+              - generic [ref=e230]:
+                - textbox "Reserve Price (₹) Reserve Price (₹)" [ref=e232]: 4,000
+                - generic:
+                  - generic:
+                    - generic: Reserve Price (₹)
+              - alert [ref=e233]
+          - generic [ref=e238]:
+            - generic [ref=e240]:
+              - textbox "Floor Price (₹) Floor Price (₹)" [ref=e242]: 2,000
+              - generic:
+                - generic:
+                  - generic: Floor Price (₹)
+            - alert [ref=e243]
+          - generic [ref=e245]:
+            - generic [ref=e247]: Item Attachments
+            - generic [ref=e248]:
+              - button "Lot Images" [ref=e252] [cursor=pointer]:
+                - text: Lot Images
+                - generic [ref=e255] [cursor=pointer]: 󰁦
+              - generic [ref=e256]: "Images attached: 0 of 1"
+            - generic [ref=e259]:
+              - button "Lot Videos" [disabled]: Lot Videos
+          - generic [ref=e261]:
+            - generic [ref=e263]: Lot Duration Details
+            - generic [ref=e265]:
+              - generic [ref=e267]:
+                - generic [ref=e269]: 󰃭
+                - textbox "Bid Start Date Bid Start Date" [active] [ref=e271] [cursor=pointer]
+                - generic:
+                  - generic:
+                    - generic: Bid Start Date
+              - alert [ref=e272]
+            - generic [ref=e277]:
+              - textbox "Bid Start Time Bid Start Time" [ref=e279] [cursor=pointer]: 16:45
+              - generic [ref=e281]: 󱑎
+              - generic:
+                - generic:
+                  - generic: Bid Start Time
+          - generic [ref=e282]:
+            - generic [ref=e285]:
+              - generic [ref=e287]:
+                - generic [ref=e289]: 󰃭
+                - generic [ref=e290]:
+                  - generic: Bid End Date
+                  - textbox "Bid End Date Bid End Date" [ref=e291] [cursor=pointer]
+              - alert [ref=e292]
+            - generic [ref=e297]:
+              - textbox "Bid End Time Bid End Time" [ref=e299] [cursor=pointer]: 17:00
+              - generic [ref=e301]: 󱑎
+              - generic:
+                - generic:
+                  - generic: Bid End Time
+          - generic [ref=e302]:
+            - generic [ref=e304]: Delivery Timeline
+            - generic [ref=e306]:
+              - generic [ref=e309]:
+                - generic: Enter the no. of days from the date of payment
+                - spinbutton "Enter the no. of days from the date of payment Enter the no. of days from the date of payment" [ref=e310]
+              - alert [ref=e311]
+          - generic [ref=e313]:
+            - generic [ref=e315]: Select Approved Buyers
+            - generic [ref=e317]:
+              - combobox [ref=e319]:
+                - generic [ref=e320]:
+                  - generic: Search & Select from the list
+                  - textbox "Search & Select from the list Search & Select from the list" [ref=e322]
+                - text: 󰅙
+                - button "Open" [ref=e324] [cursor=pointer]: 󰍝
+              - alert [ref=e325]
+          - generic [ref=e327]:
+            - generic [ref=e329]: Additional Information
+            - generic [ref=e331]:
+              - generic [ref=e334]:
+                - generic: Add Remarks here
+                - textbox "Add Remarks here Add Remarks here" [ref=e335]
+              - alert [ref=e336]
+        - generic [ref=e338]:
+          - img [ref=e340]
+          - button "SUBMIT" [ref=e341] [cursor=pointer]:
+            - generic [ref=e342] [cursor=pointer]: SUBMIT
+  - generic:
+    - tooltip
+    - tooltip
+    - generic [ref=e344]:
+      - generic [ref=e346]:
+        - generic [ref=e347]:
+          - button "October 2025" [ref=e348] [cursor=pointer]:
+            - generic [ref=e349] [cursor=pointer]: October 2025
+          - button [ref=e350] [cursor=pointer]:
+            - generic [ref=e352] [cursor=pointer]: 󰍝
+          - generic [ref=e353]:
+            - button [disabled]:
+              - generic:
+                - generic: 󰅁
+            - button [ref=e354] [cursor=pointer]:
+              - generic [ref=e356] [cursor=pointer]: 󰅂
+        - generic [ref=e358]:
+          - generic [ref=e359]: S
+          - generic [ref=e360]: M
+          - generic [ref=e361]: T
+          - generic [ref=e362]: W
+          - generic [ref=e363]: T
+          - generic [ref=e364]: F
+          - generic [ref=e365]: S
+          - generic [ref=e369]:
+            - button "1" [disabled]:
+              - generic: "1"
+          - generic [ref=e370]:
+            - button "2" [disabled]:
+              - generic: "2"
+          - generic [ref=e371]:
+            - button "3" [disabled]:
+              - generic: "3"
+          - generic [ref=e372]:
+            - button "4" [disabled]:
+              - generic: "4"
+          - generic [ref=e373]:
+            - button "5" [disabled]:
+              - generic: "5"
+          - button "6" [ref=e375] [cursor=pointer]:
+            - generic [ref=e376] [cursor=pointer]: "6"
+          - button "7" [ref=e378] [cursor=pointer]:
+            - generic [ref=e379] [cursor=pointer]: "7"
+          - button "8" [ref=e381] [cursor=pointer]:
+            - generic [ref=e382] [cursor=pointer]: "8"
+          - button "9" [ref=e384] [cursor=pointer]:
+            - generic [ref=e385] [cursor=pointer]: "9"
+          - button "10" [ref=e387] [cursor=pointer]:
+            - generic [ref=e388] [cursor=pointer]: "10"
+          - button "11" [ref=e390] [cursor=pointer]:
+            - generic [ref=e391] [cursor=pointer]: "11"
+          - button "12" [ref=e393] [cursor=pointer]:
+            - generic [ref=e394] [cursor=pointer]: "12"
+          - button "13" [ref=e396] [cursor=pointer]:
+            - generic [ref=e397] [cursor=pointer]: "13"
+          - button "14" [ref=e399] [cursor=pointer]:
+            - generic [ref=e400] [cursor=pointer]: "14"
+          - button "15" [ref=e402] [cursor=pointer]:
+            - generic [ref=e403] [cursor=pointer]: "15"
+          - button "16" [ref=e405] [cursor=pointer]:
+            - generic [ref=e406] [cursor=pointer]: "16"
+          - button "17" [ref=e408] [cursor=pointer]:
+            - generic [ref=e409] [cursor=pointer]: "17"
+          - button "18" [ref=e411] [cursor=pointer]:
+            - generic [ref=e412] [cursor=pointer]: "18"
+          - button "19" [ref=e414] [cursor=pointer]:
+            - generic [ref=e415] [cursor=pointer]: "19"
+          - button "20" [ref=e417] [cursor=pointer]:
+            - generic [ref=e418] [cursor=pointer]: "20"
+          - button "21" [ref=e420] [cursor=pointer]:
+            - generic [ref=e421] [cursor=pointer]: "21"
+          - button "22" [ref=e423] [cursor=pointer]:
+            - generic [ref=e424] [cursor=pointer]: "22"
+          - button "23" [ref=e426] [cursor=pointer]:
+            - generic [ref=e427] [cursor=pointer]: "23"
+          - button "24" [ref=e429] [cursor=pointer]:
+            - generic [ref=e430] [cursor=pointer]: "24"
+          - button "25" [ref=e432] [cursor=pointer]:
+            - generic [ref=e433] [cursor=pointer]: "25"
+          - button "26" [ref=e435] [cursor=pointer]:
+            - generic [ref=e436] [cursor=pointer]: "26"
+          - button "27" [ref=e438] [cursor=pointer]:
+            - generic [ref=e439] [cursor=pointer]: "27"
+          - button "28" [ref=e441] [cursor=pointer]:
+            - generic [ref=e442] [cursor=pointer]: "28"
+          - button "29" [ref=e444] [cursor=pointer]:
+            - generic [ref=e445] [cursor=pointer]: "29"
+          - button "30" [ref=e447] [cursor=pointer]:
+            - generic [ref=e448] [cursor=pointer]: "30"
+          - button "31" [ref=e450] [cursor=pointer]:
+            - generic [ref=e451] [cursor=pointer]: "31"
+      - generic [ref=e460]:
+        - button "Cancel" [ref=e462] [cursor=pointer]:
+          - generic [ref=e463] [cursor=pointer]: Cancel
+        - button "OK" [ref=e464] [cursor=pointer]:
+          - generic [ref=e465] [cursor=pointer]: OK
+```

@@ -1,0 +1,728 @@
+2025-10-06T10:14:11.635Z INFO webdriver: Initiate new session using the WebDriver protocol
+2025-10-06T10:14:11.636Z INFO @wdio/utils: Connecting to existing driver at http://localhost:4723/wd/hub
+2025-10-06T10:14:11.665Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session
+2025-10-06T10:14:19.651Z INFO webdriver: COMMAND findElement("id", "com.blubirch.rims.whirlpoolDemo:id/edtEmail")
+2025-10-06T10:14:19.653Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/element
+2025-10-06T10:14:19.653Z INFO webdriver: DATA { using: 'id', value: 'com.blubirch.rims.whirlpoolDemo:id/edtEmail' }
+2025-10-06T10:14:20.317Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-1322-ffff-ffff0000000c',
+  ELEMENT: '00000000-0000-1322-ffff-ffff0000000c'
+}
+2025-10-06T10:14:20.358Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-1322-ffff-ffff0000000c")
+2025-10-06T10:14:20.361Z INFO webdriver: [GET] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/element/00000000-0000-1322-ffff-ffff0000000c/displayed
+2025-10-06T10:14:20.401Z INFO webdriver: RESULT true
+2025-10-06T10:14:20.402Z INFO webdriver: COMMAND elementClear("00000000-0000-1322-ffff-ffff0000000c")
+2025-10-06T10:14:20.403Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/element/00000000-0000-1322-ffff-ffff0000000c/clear
+2025-10-06T10:14:20.449Z INFO webdriver: RESULT null
+2025-10-06T10:14:20.451Z INFO webdriver: COMMAND elementSendKeys("00000000-0000-1322-ffff-ffff0000000c", "dava_admin")
+2025-10-06T10:14:20.452Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/element/00000000-0000-1322-ffff-ffff0000000c/value
+2025-10-06T10:14:20.452Z INFO webdriver: DATA { text: 'dava_admin' }
+2025-10-06T10:14:21.513Z INFO webdriver: RESULT null
+2025-10-06T10:14:21.516Z INFO webdriver: COMMAND findElement("id", "com.blubirch.rims.whirlpoolDemo:id/edtPassword")
+2025-10-06T10:14:21.517Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/element
+2025-10-06T10:14:21.517Z INFO webdriver: DATA {
+  using: 'id',
+  value: 'com.blubirch.rims.whirlpoolDemo:id/edtPassword'
+}
+2025-10-06T10:14:22.049Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-1322-ffff-ffff00000017',
+  ELEMENT: '00000000-0000-1322-ffff-ffff00000017'
+}
+2025-10-06T10:14:22.074Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-1322-ffff-ffff00000017")
+2025-10-06T10:14:22.076Z INFO webdriver: [GET] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/element/00000000-0000-1322-ffff-ffff00000017/displayed
+2025-10-06T10:14:22.128Z INFO webdriver: RESULT true
+2025-10-06T10:14:22.130Z INFO webdriver: COMMAND elementClear("00000000-0000-1322-ffff-ffff00000017")
+2025-10-06T10:14:22.131Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/element/00000000-0000-1322-ffff-ffff00000017/clear
+2025-10-06T10:14:22.174Z INFO webdriver: RESULT null
+2025-10-06T10:14:22.174Z INFO webdriver: COMMAND elementSendKeys("00000000-0000-1322-ffff-ffff00000017", "blubirch@123")
+2025-10-06T10:14:22.175Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/element/00000000-0000-1322-ffff-ffff00000017/value
+2025-10-06T10:14:22.175Z INFO webdriver: DATA { text: 'blubirch@123' }
+2025-10-06T10:14:23.243Z INFO webdriver: RESULT null
+2025-10-06T10:14:23.247Z INFO webdriver: COMMAND findElement("id", "com.blubirch.rims.whirlpoolDemo:id/btnSignIn")
+2025-10-06T10:14:23.250Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/element
+2025-10-06T10:14:23.251Z INFO webdriver: DATA { using: 'id', value: 'com.blubirch.rims.whirlpoolDemo:id/btnSignIn' }
+2025-10-06T10:14:23.782Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-1322-ffff-ffff00000021',
+  ELEMENT: '00000000-0000-1322-ffff-ffff00000021'
+}
+2025-10-06T10:14:23.801Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-1322-ffff-ffff00000021")
+2025-10-06T10:14:23.803Z INFO webdriver: [GET] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/element/00000000-0000-1322-ffff-ffff00000021/displayed
+2025-10-06T10:14:23.851Z INFO webdriver: RESULT true
+2025-10-06T10:14:23.852Z INFO webdriver: COMMAND elementClick("00000000-0000-1322-ffff-ffff00000021")
+2025-10-06T10:14:23.853Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/element/00000000-0000-1322-ffff-ffff00000021/click
+2025-10-06T10:14:23.931Z INFO webdriver: RESULT null
+2025-10-06T10:14:23.931Z INFO webdriver: COMMAND findElement("xpath", "(//android.widget.FrameLayout[@resource-id="com.blubirch.rims.whirlpoolDemo:id/cvMain"])[2]/android.view.ViewGroup")
+2025-10-06T10:14:23.932Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/element
+2025-10-06T10:14:23.932Z INFO webdriver: DATA {
+  using: 'xpath',
+  value: '(//android.widget.FrameLayout[@resource-id="com.blubirch.rims.whirlpoolDemo:id/cvMain"])[2]/android.view.ViewGroup'
+}
+2025-10-06T10:14:24.261Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\Blubirch.DESKTOP-EN2LGLN\\PLAYWRIGHT AUTOMATION\\node_modules\\appium\\node_modules\\appium-android-driver\\lib\\commands\\find.js:75:11)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\\Users\\Blubirch.DESKTOP-EN2LGLN\\PLAYWRIGHT AUTOMATION\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\basedriver\\commands\\find.js:33:12)\n' +
+    '    at AndroidUiautomator2Driver.findElement (C:\\Users\\Blubirch.DESKTOP-EN2LGLN\\PLAYWRIGHT AUTOMATION\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\basedriver\\commands\\find.js:53:10)'
+}
+2025-10-06T10:14:24.269Z INFO webdriver: COMMAND findElement("xpath", "(//android.widget.FrameLayout[@resource-id="com.blubirch.rims.whirlpoolDemo:id/cvMain"])[2]/android.view.ViewGroup")
+2025-10-06T10:14:24.270Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/element
+2025-10-06T10:14:24.271Z INFO webdriver: DATA {
+  using: 'xpath',
+  value: '(//android.widget.FrameLayout[@resource-id="com.blubirch.rims.whirlpoolDemo:id/cvMain"])[2]/android.view.ViewGroup'
+}
+2025-10-06T10:14:26.048Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-1324-ffff-ffff00000059',
+  ELEMENT: '00000000-0000-1324-ffff-ffff00000059'
+}
+2025-10-06T10:14:26.064Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-1324-ffff-ffff00000059")
+2025-10-06T10:14:26.066Z INFO webdriver: [GET] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/element/00000000-0000-1324-ffff-ffff00000059/displayed
+2025-10-06T10:14:26.120Z INFO webdriver: RESULT true
+2025-10-06T10:14:26.120Z INFO webdriver: COMMAND elementClick("00000000-0000-1324-ffff-ffff00000059")
+2025-10-06T10:14:26.121Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/element/00000000-0000-1324-ffff-ffff00000059/click
+2025-10-06T10:14:26.211Z INFO webdriver: RESULT null
+2025-10-06T10:14:26.212Z INFO webdriver: COMMAND findElement("id", "com.blubirch.rims.whirlpoolDemo:id/editText")
+2025-10-06T10:14:26.212Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/element
+2025-10-06T10:14:26.213Z INFO webdriver: DATA { using: 'id', value: 'com.blubirch.rims.whirlpoolDemo:id/editText' }
+2025-10-06T10:14:26.429Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\Blubirch.DESKTOP-EN2LGLN\\PLAYWRIGHT AUTOMATION\\node_modules\\appium\\node_modules\\appium-android-driver\\lib\\commands\\find.js:75:11)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\\Users\\Blubirch.DESKTOP-EN2LGLN\\PLAYWRIGHT AUTOMATION\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\basedriver\\commands\\find.js:33:12)\n' +
+    '    at AndroidUiautomator2Driver.findElement (C:\\Users\\Blubirch.DESKTOP-EN2LGLN\\PLAYWRIGHT AUTOMATION\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\basedriver\\commands\\find.js:53:10)'
+}
+2025-10-06T10:14:26.433Z INFO webdriver: COMMAND findElement("id", "com.blubirch.rims.whirlpoolDemo:id/editText")
+2025-10-06T10:14:26.434Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/element
+2025-10-06T10:14:26.434Z INFO webdriver: DATA { using: 'id', value: 'com.blubirch.rims.whirlpoolDemo:id/editText' }
+2025-10-06T10:14:27.599Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-1325-ffff-ffff00000086',
+  ELEMENT: '00000000-0000-1325-ffff-ffff00000086'
+}
+2025-10-06T10:14:27.608Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-1325-ffff-ffff00000086")
+2025-10-06T10:14:27.609Z INFO webdriver: [GET] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/element/00000000-0000-1325-ffff-ffff00000086/displayed
+2025-10-06T10:14:27.672Z INFO webdriver: RESULT true
+2025-10-06T10:14:27.675Z INFO webdriver: COMMAND elementClear("00000000-0000-1325-ffff-ffff00000086")
+2025-10-06T10:14:27.676Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/element/00000000-0000-1325-ffff-ffff00000086/clear
+2025-10-06T10:14:27.751Z INFO webdriver: RESULT null
+2025-10-06T10:14:27.752Z INFO webdriver: COMMAND elementSendKeys("00000000-0000-1325-ffff-ffff00000086", "IRDT20251006101212950")
+2025-10-06T10:14:27.753Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/element/00000000-0000-1325-ffff-ffff00000086/value
+2025-10-06T10:14:27.754Z INFO webdriver: DATA { text: 'IRDT20251006101212950' }
+2025-10-06T10:14:29.153Z INFO webdriver: RESULT null
+2025-10-06T10:14:29.158Z INFO webdriver: COMMAND executeScript("mobile: performEditorAction", <object>)
+2025-10-06T10:14:29.160Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/execute/sync
+2025-10-06T10:14:29.161Z INFO webdriver: DATA {
+  script: 'mobile: performEditorAction',
+  args: [ { action: 'search' } ]
+}
+2025-10-06T10:14:30.463Z INFO webdriver: RESULT null
+2025-10-06T10:14:30.464Z INFO webdriver: COMMAND findElement("xpath", "//android.widget.EditText[@resource-id="com.blubirch.rims.whirlpoolDemo:id/editText" and @text="Article Id/Tag Id"]")
+2025-10-06T10:14:30.465Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/element
+2025-10-06T10:14:30.466Z INFO webdriver: DATA {
+  using: 'xpath',
+  value: '//android.widget.EditText[@resource-id="com.blubirch.rims.whirlpoolDemo:id/editText" and @text="Article Id/Tag Id"]'
+}
+2025-10-06T10:14:31.887Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-1325-ffff-ffff00000096',
+  ELEMENT: '00000000-0000-1325-ffff-ffff00000096'
+}
+2025-10-06T10:14:31.909Z INFO webdriver: COMMAND isElementDisplayed("00000000-0000-1325-ffff-ffff00000096")
+2025-10-06T10:14:31.910Z INFO webdriver: [GET] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/element/00000000-0000-1325-ffff-ffff00000096/displayed
+2025-10-06T10:14:31.981Z INFO webdriver: RESULT true
+2025-10-06T10:14:31.984Z INFO webdriver: COMMAND elementClear("00000000-0000-1325-ffff-ffff00000096")
+2025-10-06T10:14:31.986Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/element/00000000-0000-1325-ffff-ffff00000096/clear
+2025-10-06T10:14:32.063Z INFO webdriver: RESULT null
+2025-10-06T10:14:32.064Z INFO webdriver: COMMAND elementSendKeys("00000000-0000-1325-ffff-ffff00000096", "490021038")
+2025-10-06T10:14:32.065Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/element/00000000-0000-1325-ffff-ffff00000096/value
+2025-10-06T10:14:32.065Z INFO webdriver: DATA { text: '490021038' }
+2025-10-06T10:14:32.831Z INFO webdriver: RESULT null
+2025-10-06T10:14:32.832Z INFO webdriver: COMMAND executeScript("mobile: performEditorAction", <object>)
+2025-10-06T10:14:32.833Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/execute/sync
+2025-10-06T10:14:32.833Z INFO webdriver: DATA {
+  script: 'mobile: performEditorAction',
+  args: [ { action: 'search' } ]
+}
+2025-10-06T10:14:34.071Z INFO webdriver: RESULT null
+2025-10-06T10:14:34.072Z INFO webdriver: COMMAND executeScript("mobile: performEditorAction", <object>)
+2025-10-06T10:14:34.072Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/execute/sync
+2025-10-06T10:14:34.073Z INFO webdriver: DATA {
+  script: 'mobile: performEditorAction',
+  args: [ { action: 'search' } ]
+}
+2025-10-06T10:14:35.293Z INFO webdriver: RESULT null
+2025-10-06T10:14:35.293Z INFO webdriver: COMMAND findElement("xpath", "//android.widget.CheckBox[@resource-id="com.blubirch.rims.whirlpoolDemo:id/checkbox" and @text="Yes"]")
+2025-10-06T10:14:35.294Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/element
+2025-10-06T10:14:35.294Z INFO webdriver: DATA {
+  using: 'xpath',
+  value: '//android.widget.CheckBox[@resource-id="com.blubirch.rims.whirlpoolDemo:id/checkbox" and @text="Yes"]'
+}
+2025-10-06T10:14:35.502Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-132b-ffff-ffff0000018c',
+  ELEMENT: '00000000-0000-132b-ffff-ffff0000018c'
+}
+2025-10-06T10:14:35.534Z INFO webdriver: COMMAND findElements("xpath", "//android.widget.CheckBox[@resource-id="com.blubirch.rims.whirlpoolDemo:id/checkbox" and @text="Yes"]")
+2025-10-06T10:14:35.536Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/elements
+2025-10-06T10:14:35.536Z INFO webdriver: DATA {
+  using: 'xpath',
+  value: '//android.widget.CheckBox[@resource-id="com.blubirch.rims.whirlpoolDemo:id/checkbox" and @text="Yes"]'
+}
+2025-10-06T10:14:35.684Z INFO webdriver: RESULT [
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-132b-ffff-ffff0000018c',
+    ELEMENT: '00000000-0000-132b-ffff-ffff0000018c'
+  }
+]
+2025-10-06T10:14:35.714Z INFO webdriver: COMMAND findElement("xpath", "//android.widget.CheckBox[@resource-id="com.blubirch.rims.whirlpoolDemo:id/checkbox" and @text="Yes"]")
+2025-10-06T10:14:35.720Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/element
+2025-10-06T10:14:35.721Z INFO webdriver: DATA {
+  using: 'xpath',
+  value: '//android.widget.CheckBox[@resource-id="com.blubirch.rims.whirlpoolDemo:id/checkbox" and @text="Yes"]'
+}
+2025-10-06T10:14:35.901Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-132b-ffff-ffff0000018c',
+  ELEMENT: '00000000-0000-132b-ffff-ffff0000018c'
+}
+2025-10-06T10:14:35.928Z INFO webdriver: COMMAND elementClick("00000000-0000-132b-ffff-ffff0000018c")
+2025-10-06T10:14:35.930Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/element/00000000-0000-132b-ffff-ffff0000018c/click
+2025-10-06T10:14:36.033Z INFO webdriver: RESULT null
+2025-10-06T10:14:36.035Z INFO webdriver: COMMAND findElement("xpath", "//android.widget.CheckBox[@resource-id="com.blubirch.rims.whirlpoolDemo:id/checkbox" and @text="No"]")
+2025-10-06T10:14:36.037Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/element
+2025-10-06T10:14:36.037Z INFO webdriver: DATA {
+  using: 'xpath',
+  value: '//android.widget.CheckBox[@resource-id="com.blubirch.rims.whirlpoolDemo:id/checkbox" and @text="No"]'
+}
+2025-10-06T10:14:37.309Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-132b-ffff-ffff000001c5',
+  ELEMENT: '00000000-0000-132b-ffff-ffff000001c5'
+}
+2025-10-06T10:14:37.326Z INFO webdriver: COMMAND findElements("xpath", "//android.widget.CheckBox[@resource-id="com.blubirch.rims.whirlpoolDemo:id/checkbox" and @text="No"]")
+2025-10-06T10:14:37.326Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/elements
+2025-10-06T10:14:37.326Z INFO webdriver: DATA {
+  using: 'xpath',
+  value: '//android.widget.CheckBox[@resource-id="com.blubirch.rims.whirlpoolDemo:id/checkbox" and @text="No"]'
+}
+2025-10-06T10:14:37.487Z INFO webdriver: RESULT [
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-132b-ffff-ffff000001c5',
+    ELEMENT: '00000000-0000-132b-ffff-ffff000001c5'
+  }
+]
+2025-10-06T10:14:37.493Z INFO webdriver: COMMAND findElement("xpath", "//android.widget.CheckBox[@resource-id="com.blubirch.rims.whirlpoolDemo:id/checkbox" and @text="No"]")
+2025-10-06T10:14:37.493Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/element
+2025-10-06T10:14:37.493Z INFO webdriver: DATA {
+  using: 'xpath',
+  value: '//android.widget.CheckBox[@resource-id="com.blubirch.rims.whirlpoolDemo:id/checkbox" and @text="No"]'
+}
+2025-10-06T10:14:37.695Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-132b-ffff-ffff000001c5',
+  ELEMENT: '00000000-0000-132b-ffff-ffff000001c5'
+}
+2025-10-06T10:14:37.718Z INFO webdriver: COMMAND elementClick("00000000-0000-132b-ffff-ffff000001c5")
+2025-10-06T10:14:37.720Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/element/00000000-0000-132b-ffff-ffff000001c5/click
+2025-10-06T10:14:37.826Z INFO webdriver: RESULT null
+2025-10-06T10:14:37.827Z INFO webdriver: COMMAND findElement("id", "com.blubirch.rims.whirlpoolDemo:id/ivCapture")
+2025-10-06T10:14:37.828Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/element
+2025-10-06T10:14:37.828Z INFO webdriver: DATA { using: 'id', value: 'com.blubirch.rims.whirlpoolDemo:id/ivCapture' }
+2025-10-06T10:14:39.679Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-1330-ffff-ffff000001e2',
+  ELEMENT: '00000000-0000-1330-ffff-ffff000001e2'
+}
+2025-10-06T10:14:39.703Z INFO webdriver: COMMAND findElements("id", "com.blubirch.rims.whirlpoolDemo:id/ivCapture")
+2025-10-06T10:14:39.704Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/elements
+2025-10-06T10:14:39.704Z INFO webdriver: DATA { using: 'id', value: 'com.blubirch.rims.whirlpoolDemo:id/ivCapture' }
+2025-10-06T10:14:39.782Z INFO webdriver: RESULT [
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-1330-ffff-ffff000001e2',
+    ELEMENT: '00000000-0000-1330-ffff-ffff000001e2'
+  }
+]
+2025-10-06T10:14:39.788Z INFO webdriver: COMMAND findElement("id", "com.blubirch.rims.whirlpoolDemo:id/ivCapture")
+2025-10-06T10:14:39.789Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/element
+2025-10-06T10:14:39.789Z INFO webdriver: DATA { using: 'id', value: 'com.blubirch.rims.whirlpoolDemo:id/ivCapture' }
+2025-10-06T10:14:39.848Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-1330-ffff-ffff000001e2',
+  ELEMENT: '00000000-0000-1330-ffff-ffff000001e2'
+}
+2025-10-06T10:14:39.852Z INFO webdriver: COMMAND elementClick("00000000-0000-1330-ffff-ffff000001e2")
+2025-10-06T10:14:39.853Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/element/00000000-0000-1330-ffff-ffff000001e2/click
+2025-10-06T10:14:40.435Z INFO webdriver: RESULT null
+2025-10-06T10:14:40.436Z INFO webdriver: COMMAND findElement("id", "com.blubirch.rims.whirlpoolDemo:id/ivConfirm")
+2025-10-06T10:14:40.437Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/element
+2025-10-06T10:14:40.437Z INFO webdriver: DATA { using: 'id', value: 'com.blubirch.rims.whirlpoolDemo:id/ivConfirm' }
+2025-10-06T10:14:40.535Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\Blubirch.DESKTOP-EN2LGLN\\PLAYWRIGHT AUTOMATION\\node_modules\\appium\\node_modules\\appium-android-driver\\lib\\commands\\find.js:75:11)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\\Users\\Blubirch.DESKTOP-EN2LGLN\\PLAYWRIGHT AUTOMATION\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\basedriver\\commands\\find.js:33:12)\n' +
+    '    at AndroidUiautomator2Driver.findElement (C:\\Users\\Blubirch.DESKTOP-EN2LGLN\\PLAYWRIGHT AUTOMATION\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\basedriver\\commands\\find.js:53:10)'
+}
+2025-10-06T10:14:40.544Z INFO webdriver: COMMAND findElements("id", "com.blubirch.rims.whirlpoolDemo:id/ivConfirm")
+2025-10-06T10:14:40.545Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/elements
+2025-10-06T10:14:40.545Z INFO webdriver: DATA { using: 'id', value: 'com.blubirch.rims.whirlpoolDemo:id/ivConfirm' }
+2025-10-06T10:14:40.601Z INFO webdriver: RESULT []
+2025-10-06T10:14:40.651Z INFO webdriver: COMMAND findElements("id", "com.blubirch.rims.whirlpoolDemo:id/ivConfirm")
+2025-10-06T10:14:40.653Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/elements
+2025-10-06T10:14:40.653Z INFO webdriver: DATA { using: 'id', value: 'com.blubirch.rims.whirlpoolDemo:id/ivConfirm' }
+2025-10-06T10:14:41.693Z INFO webdriver: RESULT []
+2025-10-06T10:14:41.714Z INFO webdriver: COMMAND findElements("id", "com.blubirch.rims.whirlpoolDemo:id/ivConfirm")
+2025-10-06T10:14:41.715Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/elements
+2025-10-06T10:14:41.716Z INFO webdriver: DATA { using: 'id', value: 'com.blubirch.rims.whirlpoolDemo:id/ivConfirm' }
+2025-10-06T10:14:41.791Z INFO webdriver: RESULT []
+2025-10-06T10:14:41.797Z INFO webdriver: COMMAND findElements("id", "com.blubirch.rims.whirlpoolDemo:id/ivConfirm")
+2025-10-06T10:14:41.798Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/elements
+2025-10-06T10:14:41.798Z INFO webdriver: DATA { using: 'id', value: 'com.blubirch.rims.whirlpoolDemo:id/ivConfirm' }
+2025-10-06T10:14:41.852Z INFO webdriver: RESULT []
+2025-10-06T10:14:41.856Z INFO webdriver: COMMAND findElements("id", "com.blubirch.rims.whirlpoolDemo:id/ivConfirm")
+2025-10-06T10:14:41.857Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/elements
+2025-10-06T10:14:41.858Z INFO webdriver: DATA { using: 'id', value: 'com.blubirch.rims.whirlpoolDemo:id/ivConfirm' }
+2025-10-06T10:14:41.909Z INFO webdriver: RESULT []
+2025-10-06T10:14:41.919Z INFO webdriver: COMMAND findElements("id", "com.blubirch.rims.whirlpoolDemo:id/ivConfirm")
+2025-10-06T10:14:41.920Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/elements
+2025-10-06T10:14:41.920Z INFO webdriver: DATA { using: 'id', value: 'com.blubirch.rims.whirlpoolDemo:id/ivConfirm' }
+2025-10-06T10:14:41.984Z INFO webdriver: RESULT []
+2025-10-06T10:14:41.996Z INFO webdriver: COMMAND findElements("id", "com.blubirch.rims.whirlpoolDemo:id/ivConfirm")
+2025-10-06T10:14:41.997Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/elements
+2025-10-06T10:14:41.997Z INFO webdriver: DATA { using: 'id', value: 'com.blubirch.rims.whirlpoolDemo:id/ivConfirm' }
+2025-10-06T10:14:42.052Z INFO webdriver: RESULT []
+2025-10-06T10:14:42.055Z INFO webdriver: COMMAND findElements("id", "com.blubirch.rims.whirlpoolDemo:id/ivConfirm")
+2025-10-06T10:14:42.055Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/elements
+2025-10-06T10:14:42.056Z INFO webdriver: DATA { using: 'id', value: 'com.blubirch.rims.whirlpoolDemo:id/ivConfirm' }
+2025-10-06T10:14:42.105Z INFO webdriver: RESULT []
+2025-10-06T10:14:42.121Z INFO webdriver: COMMAND findElements("id", "com.blubirch.rims.whirlpoolDemo:id/ivConfirm")
+2025-10-06T10:14:42.123Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/elements
+2025-10-06T10:14:42.124Z INFO webdriver: DATA { using: 'id', value: 'com.blubirch.rims.whirlpoolDemo:id/ivConfirm' }
+2025-10-06T10:14:42.182Z INFO webdriver: RESULT []
+2025-10-06T10:14:42.188Z INFO webdriver: COMMAND findElements("id", "com.blubirch.rims.whirlpoolDemo:id/ivConfirm")
+2025-10-06T10:14:42.188Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/elements
+2025-10-06T10:14:42.188Z INFO webdriver: DATA { using: 'id', value: 'com.blubirch.rims.whirlpoolDemo:id/ivConfirm' }
+2025-10-06T10:14:42.245Z INFO webdriver: RESULT []
+2025-10-06T10:14:42.261Z INFO webdriver: COMMAND findElements("id", "com.blubirch.rims.whirlpoolDemo:id/ivConfirm")
+2025-10-06T10:14:42.262Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/elements
+2025-10-06T10:14:42.262Z INFO webdriver: DATA { using: 'id', value: 'com.blubirch.rims.whirlpoolDemo:id/ivConfirm' }
+2025-10-06T10:14:42.311Z INFO webdriver: RESULT []
+2025-10-06T10:14:42.319Z INFO webdriver: COMMAND findElements("id", "com.blubirch.rims.whirlpoolDemo:id/ivConfirm")
+2025-10-06T10:14:42.320Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/elements
+2025-10-06T10:14:42.321Z INFO webdriver: DATA { using: 'id', value: 'com.blubirch.rims.whirlpoolDemo:id/ivConfirm' }
+2025-10-06T10:14:42.371Z INFO webdriver: RESULT []
+2025-10-06T10:14:42.387Z INFO webdriver: COMMAND findElements("id", "com.blubirch.rims.whirlpoolDemo:id/ivConfirm")
+2025-10-06T10:14:42.388Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/elements
+2025-10-06T10:14:42.389Z INFO webdriver: DATA { using: 'id', value: 'com.blubirch.rims.whirlpoolDemo:id/ivConfirm' }
+2025-10-06T10:14:42.457Z INFO webdriver: RESULT []
+2025-10-06T10:14:42.464Z INFO webdriver: COMMAND findElements("id", "com.blubirch.rims.whirlpoolDemo:id/ivConfirm")
+2025-10-06T10:14:42.465Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/elements
+2025-10-06T10:14:42.466Z INFO webdriver: DATA { using: 'id', value: 'com.blubirch.rims.whirlpoolDemo:id/ivConfirm' }
+2025-10-06T10:14:42.520Z INFO webdriver: RESULT []
+2025-10-06T10:14:42.528Z INFO webdriver: COMMAND findElements("id", "com.blubirch.rims.whirlpoolDemo:id/ivConfirm")
+2025-10-06T10:14:42.528Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/elements
+2025-10-06T10:14:42.529Z INFO webdriver: DATA { using: 'id', value: 'com.blubirch.rims.whirlpoolDemo:id/ivConfirm' }
+2025-10-06T10:14:42.572Z INFO webdriver: RESULT []
+2025-10-06T10:14:42.577Z INFO webdriver: COMMAND findElements("id", "com.blubirch.rims.whirlpoolDemo:id/ivConfirm")
+2025-10-06T10:14:42.578Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/elements
+2025-10-06T10:14:42.578Z INFO webdriver: DATA { using: 'id', value: 'com.blubirch.rims.whirlpoolDemo:id/ivConfirm' }
+2025-10-06T10:14:42.683Z INFO webdriver: RESULT []
+2025-10-06T10:14:42.693Z INFO webdriver: COMMAND findElements("id", "com.blubirch.rims.whirlpoolDemo:id/ivConfirm")
+2025-10-06T10:14:42.694Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/elements
+2025-10-06T10:14:42.694Z INFO webdriver: DATA { using: 'id', value: 'com.blubirch.rims.whirlpoolDemo:id/ivConfirm' }
+2025-10-06T10:14:43.649Z INFO webdriver: RESULT [
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-1330-ffff-ffff000001e1',
+    ELEMENT: '00000000-0000-1330-ffff-ffff000001e1'
+  }
+]
+2025-10-06T10:14:43.665Z INFO webdriver: COMMAND findElement("id", "com.blubirch.rims.whirlpoolDemo:id/ivConfirm")
+2025-10-06T10:14:43.666Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/element
+2025-10-06T10:14:43.666Z INFO webdriver: DATA { using: 'id', value: 'com.blubirch.rims.whirlpoolDemo:id/ivConfirm' }
+2025-10-06T10:14:43.713Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-1330-ffff-ffff000001e1',
+  ELEMENT: '00000000-0000-1330-ffff-ffff000001e1'
+}
+2025-10-06T10:14:43.722Z INFO webdriver: COMMAND findElement("id", "com.blubirch.rims.whirlpoolDemo:id/ivConfirm")
+2025-10-06T10:14:43.723Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/element
+2025-10-06T10:14:43.723Z INFO webdriver: DATA { using: 'id', value: 'com.blubirch.rims.whirlpoolDemo:id/ivConfirm' }
+2025-10-06T10:14:43.757Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-1330-ffff-ffff000001e1',
+  ELEMENT: '00000000-0000-1330-ffff-ffff000001e1'
+}
+2025-10-06T10:14:43.764Z INFO webdriver: COMMAND elementClick("00000000-0000-1330-ffff-ffff000001e1")
+2025-10-06T10:14:43.764Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/element/00000000-0000-1330-ffff-ffff000001e1/click
+2025-10-06T10:14:44.838Z INFO webdriver: RESULT null
+2025-10-06T10:14:44.840Z INFO webdriver: COMMAND findElement("id", "com.blubirch.rims.whirlpoolDemo:id/btNext")
+2025-10-06T10:14:44.841Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/element
+2025-10-06T10:14:44.842Z INFO webdriver: DATA { using: 'id', value: 'com.blubirch.rims.whirlpoolDemo:id/btNext' }
+2025-10-06T10:14:44.979Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-132b-ffff-ffff0000013b',
+  ELEMENT: '00000000-0000-132b-ffff-ffff0000013b'
+}
+2025-10-06T10:14:44.994Z INFO webdriver: COMMAND elementClick("00000000-0000-132b-ffff-ffff0000013b")
+2025-10-06T10:14:44.995Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/element/00000000-0000-132b-ffff-ffff0000013b/click
+2025-10-06T10:14:45.114Z INFO webdriver: RESULT null
+2025-10-06T10:14:45.115Z INFO webdriver: COMMAND findElement("xpath", "//android.widget.CheckBox[@resource-id="com.blubirch.rims.whirlpoolDemo:id/checkbox" and @text="Like New"]")
+2025-10-06T10:14:45.116Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/element
+2025-10-06T10:14:45.117Z INFO webdriver: DATA {
+  using: 'xpath',
+  value: '//android.widget.CheckBox[@resource-id="com.blubirch.rims.whirlpoolDemo:id/checkbox" and @text="Like New"]'
+}
+2025-10-06T10:14:45.561Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-132b-ffff-ffff000001fd',
+  ELEMENT: '00000000-0000-132b-ffff-ffff000001fd'
+}
+2025-10-06T10:14:45.571Z INFO webdriver: COMMAND findElements("xpath", "//android.widget.CheckBox[@resource-id="com.blubirch.rims.whirlpoolDemo:id/checkbox" and @text="Like New"]")
+2025-10-06T10:14:45.572Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/elements
+2025-10-06T10:14:45.572Z INFO webdriver: DATA {
+  using: 'xpath',
+  value: '//android.widget.CheckBox[@resource-id="com.blubirch.rims.whirlpoolDemo:id/checkbox" and @text="Like New"]'
+}
+2025-10-06T10:14:46.225Z INFO webdriver: RESULT [
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-132b-ffff-ffff00000222',
+    ELEMENT: '00000000-0000-132b-ffff-ffff00000222'
+  }
+]
+2025-10-06T10:14:46.228Z INFO webdriver: COMMAND findElement("xpath", "//android.widget.CheckBox[@resource-id="com.blubirch.rims.whirlpoolDemo:id/checkbox" and @text="Like New"]")
+2025-10-06T10:14:46.228Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/element
+2025-10-06T10:14:46.228Z INFO webdriver: DATA {
+  using: 'xpath',
+  value: '//android.widget.CheckBox[@resource-id="com.blubirch.rims.whirlpoolDemo:id/checkbox" and @text="Like New"]'
+}
+2025-10-06T10:14:46.417Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-132b-ffff-ffff00000222',
+  ELEMENT: '00000000-0000-132b-ffff-ffff00000222'
+}
+2025-10-06T10:14:46.428Z INFO webdriver: COMMAND elementClick("00000000-0000-132b-ffff-ffff00000222")
+2025-10-06T10:14:46.429Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/element/00000000-0000-132b-ffff-ffff00000222/click
+2025-10-06T10:14:46.512Z INFO webdriver: RESULT null
+2025-10-06T10:14:46.513Z INFO webdriver: COMMAND findElements("id", "com.blubirch.rims.whirlpoolDemo:id/ivCapture")
+2025-10-06T10:14:46.513Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/elements
+2025-10-06T10:14:46.514Z INFO webdriver: DATA { using: 'id', value: 'com.blubirch.rims.whirlpoolDemo:id/ivCapture' }
+2025-10-06T10:14:48.291Z INFO webdriver: RESULT [
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-1333-ffff-ffff0000025e',
+    ELEMENT: '00000000-0000-1333-ffff-ffff0000025e'
+  }
+]
+2025-10-06T10:14:48.306Z INFO webdriver: COMMAND findElement("id", "com.blubirch.rims.whirlpoolDemo:id/ivCapture")
+2025-10-06T10:14:48.307Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/element
+2025-10-06T10:14:48.308Z INFO webdriver: DATA { using: 'id', value: 'com.blubirch.rims.whirlpoolDemo:id/ivCapture' }
+2025-10-06T10:14:48.388Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-1333-ffff-ffff0000025e',
+  ELEMENT: '00000000-0000-1333-ffff-ffff0000025e'
+}
+2025-10-06T10:14:48.394Z INFO webdriver: COMMAND elementClick("00000000-0000-1333-ffff-ffff0000025e")
+2025-10-06T10:14:48.394Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/element/00000000-0000-1333-ffff-ffff0000025e/click
+2025-10-06T10:14:48.978Z INFO webdriver: RESULT null
+2025-10-06T10:14:48.980Z INFO webdriver: COMMAND elementClick("00000000-0000-1330-ffff-ffff000001e1")
+2025-10-06T10:14:48.981Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/element/00000000-0000-1330-ffff-ffff000001e1/click
+2025-10-06T10:14:49.063Z INFO webdriver: COMMAND findElement("id", "com.blubirch.rims.whirlpoolDemo:id/ivConfirm")
+2025-10-06T10:14:49.063Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/element
+2025-10-06T10:14:49.064Z INFO webdriver: DATA { using: 'id', value: 'com.blubirch.rims.whirlpoolDemo:id/ivConfirm' }
+2025-10-06T10:14:49.137Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\Blubirch.DESKTOP-EN2LGLN\\PLAYWRIGHT AUTOMATION\\node_modules\\appium\\node_modules\\appium-android-driver\\lib\\commands\\find.js:75:11)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\\Users\\Blubirch.DESKTOP-EN2LGLN\\PLAYWRIGHT AUTOMATION\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\basedriver\\commands\\find.js:33:12)\n' +
+    '    at AndroidUiautomator2Driver.findElement (C:\\Users\\Blubirch.DESKTOP-EN2LGLN\\PLAYWRIGHT AUTOMATION\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\basedriver\\commands\\find.js:53:10)'
+}
+2025-10-06T10:14:49.143Z INFO webdriver: COMMAND findElements("id", "com.blubirch.rims.whirlpoolDemo:id/ivConfirm")
+2025-10-06T10:14:49.143Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/elements
+2025-10-06T10:14:49.144Z INFO webdriver: DATA { using: 'id', value: 'com.blubirch.rims.whirlpoolDemo:id/ivConfirm' }
+2025-10-06T10:14:49.204Z INFO webdriver: RESULT []
+2025-10-06T10:14:49.253Z INFO webdriver: COMMAND findElements("id", "com.blubirch.rims.whirlpoolDemo:id/ivConfirm")
+2025-10-06T10:14:49.254Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/elements
+2025-10-06T10:14:49.254Z INFO webdriver: DATA { using: 'id', value: 'com.blubirch.rims.whirlpoolDemo:id/ivConfirm' }
+2025-10-06T10:14:50.335Z INFO webdriver: RESULT []
+2025-10-06T10:14:50.351Z INFO webdriver: COMMAND findElements("id", "com.blubirch.rims.whirlpoolDemo:id/ivConfirm")
+2025-10-06T10:14:50.352Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/elements
+2025-10-06T10:14:50.352Z INFO webdriver: DATA { using: 'id', value: 'com.blubirch.rims.whirlpoolDemo:id/ivConfirm' }
+2025-10-06T10:14:50.394Z INFO webdriver: RESULT []
+2025-10-06T10:14:50.397Z INFO webdriver: COMMAND findElements("id", "com.blubirch.rims.whirlpoolDemo:id/ivConfirm")
+2025-10-06T10:14:50.398Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/elements
+2025-10-06T10:14:50.398Z INFO webdriver: DATA { using: 'id', value: 'com.blubirch.rims.whirlpoolDemo:id/ivConfirm' }
+2025-10-06T10:14:50.427Z INFO webdriver: RESULT []
+2025-10-06T10:14:50.445Z INFO webdriver: COMMAND findElements("id", "com.blubirch.rims.whirlpoolDemo:id/ivConfirm")
+2025-10-06T10:14:50.445Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/elements
+2025-10-06T10:14:50.445Z INFO webdriver: DATA { using: 'id', value: 'com.blubirch.rims.whirlpoolDemo:id/ivConfirm' }
+2025-10-06T10:14:50.490Z INFO webdriver: RESULT []
+2025-10-06T10:14:50.508Z INFO webdriver: COMMAND findElements("id", "com.blubirch.rims.whirlpoolDemo:id/ivConfirm")
+2025-10-06T10:14:50.508Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/elements
+2025-10-06T10:14:50.509Z INFO webdriver: DATA { using: 'id', value: 'com.blubirch.rims.whirlpoolDemo:id/ivConfirm' }
+2025-10-06T10:14:50.547Z INFO webdriver: RESULT []
+2025-10-06T10:14:50.551Z INFO webdriver: COMMAND findElements("id", "com.blubirch.rims.whirlpoolDemo:id/ivConfirm")
+2025-10-06T10:14:50.552Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/elements
+2025-10-06T10:14:50.553Z INFO webdriver: DATA { using: 'id', value: 'com.blubirch.rims.whirlpoolDemo:id/ivConfirm' }
+2025-10-06T10:14:50.578Z INFO webdriver: RESULT []
+2025-10-06T10:14:50.587Z INFO webdriver: COMMAND findElements("id", "com.blubirch.rims.whirlpoolDemo:id/ivConfirm")
+2025-10-06T10:14:50.588Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/elements
+2025-10-06T10:14:50.588Z INFO webdriver: DATA { using: 'id', value: 'com.blubirch.rims.whirlpoolDemo:id/ivConfirm' }
+2025-10-06T10:14:50.624Z INFO webdriver: RESULT []
+2025-10-06T10:14:50.634Z INFO webdriver: COMMAND findElements("id", "com.blubirch.rims.whirlpoolDemo:id/ivConfirm")
+2025-10-06T10:14:50.635Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/elements
+2025-10-06T10:14:50.636Z INFO webdriver: DATA { using: 'id', value: 'com.blubirch.rims.whirlpoolDemo:id/ivConfirm' }
+2025-10-06T10:14:50.679Z INFO webdriver: RESULT []
+2025-10-06T10:14:50.684Z INFO webdriver: COMMAND findElements("id", "com.blubirch.rims.whirlpoolDemo:id/ivConfirm")
+2025-10-06T10:14:50.685Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/elements
+2025-10-06T10:14:50.685Z INFO webdriver: DATA { using: 'id', value: 'com.blubirch.rims.whirlpoolDemo:id/ivConfirm' }
+2025-10-06T10:14:50.740Z INFO webdriver: RESULT []
+2025-10-06T10:14:50.745Z INFO webdriver: COMMAND findElements("id", "com.blubirch.rims.whirlpoolDemo:id/ivConfirm")
+2025-10-06T10:14:50.745Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/elements
+2025-10-06T10:14:50.745Z INFO webdriver: DATA { using: 'id', value: 'com.blubirch.rims.whirlpoolDemo:id/ivConfirm' }
+2025-10-06T10:14:50.790Z INFO webdriver: RESULT []
+2025-10-06T10:14:50.808Z INFO webdriver: COMMAND findElements("id", "com.blubirch.rims.whirlpoolDemo:id/ivConfirm")
+2025-10-06T10:14:50.808Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/elements
+2025-10-06T10:14:50.809Z INFO webdriver: DATA { using: 'id', value: 'com.blubirch.rims.whirlpoolDemo:id/ivConfirm' }
+2025-10-06T10:14:50.838Z INFO webdriver: RESULT []
+2025-10-06T10:14:50.853Z INFO webdriver: COMMAND findElements("id", "com.blubirch.rims.whirlpoolDemo:id/ivConfirm")
+2025-10-06T10:14:50.854Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/elements
+2025-10-06T10:14:50.854Z INFO webdriver: DATA { using: 'id', value: 'com.blubirch.rims.whirlpoolDemo:id/ivConfirm' }
+2025-10-06T10:14:50.905Z INFO webdriver: RESULT []
+2025-10-06T10:14:50.918Z INFO webdriver: COMMAND findElements("id", "com.blubirch.rims.whirlpoolDemo:id/ivConfirm")
+2025-10-06T10:14:50.919Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/elements
+2025-10-06T10:14:50.919Z INFO webdriver: DATA { using: 'id', value: 'com.blubirch.rims.whirlpoolDemo:id/ivConfirm' }
+2025-10-06T10:14:50.958Z INFO webdriver: RESULT []
+2025-10-06T10:14:50.964Z INFO webdriver: COMMAND findElements("id", "com.blubirch.rims.whirlpoolDemo:id/ivConfirm")
+2025-10-06T10:14:50.966Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/elements
+2025-10-06T10:14:50.967Z INFO webdriver: DATA { using: 'id', value: 'com.blubirch.rims.whirlpoolDemo:id/ivConfirm' }
+2025-10-06T10:14:51.005Z INFO webdriver: RESULT []
+2025-10-06T10:14:51.012Z INFO webdriver: COMMAND findElements("id", "com.blubirch.rims.whirlpoolDemo:id/ivConfirm")
+2025-10-06T10:14:51.013Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/elements
+2025-10-06T10:14:51.013Z INFO webdriver: DATA { using: 'id', value: 'com.blubirch.rims.whirlpoolDemo:id/ivConfirm' }
+2025-10-06T10:14:51.055Z INFO webdriver: RESULT []
+2025-10-06T10:14:51.060Z INFO webdriver: COMMAND findElements("id", "com.blubirch.rims.whirlpoolDemo:id/ivConfirm")
+2025-10-06T10:14:51.060Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/elements
+2025-10-06T10:14:51.061Z INFO webdriver: DATA { using: 'id', value: 'com.blubirch.rims.whirlpoolDemo:id/ivConfirm' }
+2025-10-06T10:14:51.089Z INFO webdriver: RESULT []
+2025-10-06T10:14:51.107Z INFO webdriver: COMMAND findElements("id", "com.blubirch.rims.whirlpoolDemo:id/ivConfirm")
+2025-10-06T10:14:51.107Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/elements
+2025-10-06T10:14:51.108Z INFO webdriver: DATA { using: 'id', value: 'com.blubirch.rims.whirlpoolDemo:id/ivConfirm' }
+2025-10-06T10:14:51.144Z INFO webdriver: RESULT []
+2025-10-06T10:14:51.154Z INFO webdriver: COMMAND findElements("id", "com.blubirch.rims.whirlpoolDemo:id/ivConfirm")
+2025-10-06T10:14:51.154Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/elements
+2025-10-06T10:14:51.155Z INFO webdriver: DATA { using: 'id', value: 'com.blubirch.rims.whirlpoolDemo:id/ivConfirm' }
+2025-10-06T10:14:52.093Z INFO webdriver: RESULT [
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-1333-ffff-ffff0000025d',
+    ELEMENT: '00000000-0000-1333-ffff-ffff0000025d'
+  }
+]
+2025-10-06T10:14:52.098Z INFO webdriver: COMMAND findElement("id", "com.blubirch.rims.whirlpoolDemo:id/ivConfirm")
+2025-10-06T10:14:52.100Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/element
+2025-10-06T10:14:52.100Z INFO webdriver: DATA { using: 'id', value: 'com.blubirch.rims.whirlpoolDemo:id/ivConfirm' }
+2025-10-06T10:14:52.138Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-1333-ffff-ffff0000025d',
+  ELEMENT: '00000000-0000-1333-ffff-ffff0000025d'
+}
+2025-10-06T10:14:52.141Z INFO webdriver: COMMAND findElement("id", "com.blubirch.rims.whirlpoolDemo:id/ivConfirm")
+2025-10-06T10:14:52.142Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/element
+2025-10-06T10:14:52.142Z INFO webdriver: DATA { using: 'id', value: 'com.blubirch.rims.whirlpoolDemo:id/ivConfirm' }
+2025-10-06T10:14:52.178Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-1333-ffff-ffff0000025d',
+  ELEMENT: '00000000-0000-1333-ffff-ffff0000025d'
+}
+2025-10-06T10:14:52.185Z INFO webdriver: COMMAND elementClick("00000000-0000-1330-ffff-ffff000001e1")
+2025-10-06T10:14:52.185Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/element/00000000-0000-1330-ffff-ffff000001e1/click
+2025-10-06T10:14:52.215Z INFO webdriver: COMMAND findElement("id", "com.blubirch.rims.whirlpoolDemo:id/ivConfirm")
+2025-10-06T10:14:52.216Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/element
+2025-10-06T10:14:52.216Z INFO webdriver: DATA { using: 'id', value: 'com.blubirch.rims.whirlpoolDemo:id/ivConfirm' }
+2025-10-06T10:14:52.255Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-1333-ffff-ffff0000025d',
+  ELEMENT: '00000000-0000-1333-ffff-ffff0000025d'
+}
+2025-10-06T10:14:52.259Z INFO webdriver: COMMAND elementClick("00000000-0000-1333-ffff-ffff0000025d")
+2025-10-06T10:14:52.259Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/element/00000000-0000-1333-ffff-ffff0000025d/click
+2025-10-06T10:14:52.312Z INFO webdriver: RESULT null
+2025-10-06T10:14:52.312Z INFO webdriver: COMMAND elementClick("00000000-0000-132b-ffff-ffff0000013b")
+2025-10-06T10:14:52.312Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/element/00000000-0000-132b-ffff-ffff0000013b/click
+2025-10-06T10:14:53.492Z INFO webdriver: RESULT null
+2025-10-06T10:14:53.493Z INFO webdriver: COMMAND findElement("id", "com.blubirch.rims.whirlpoolDemo:id/tvMultiSelectDropDown")
+2025-10-06T10:14:53.494Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/element
+2025-10-06T10:14:53.495Z INFO webdriver: DATA {
+  using: 'id',
+  value: 'com.blubirch.rims.whirlpoolDemo:id/tvMultiSelectDropDown'
+}
+2025-10-06T10:14:53.702Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-132b-ffff-ffff00000241',
+  ELEMENT: '00000000-0000-132b-ffff-ffff00000241'
+}
+2025-10-06T10:14:53.714Z INFO webdriver: COMMAND elementClick("00000000-0000-132b-ffff-ffff00000241")
+2025-10-06T10:14:53.715Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/element/00000000-0000-132b-ffff-ffff00000241/click
+2025-10-06T10:14:54.455Z INFO webdriver: COMMAND findElement("id", "com.blubirch.rims.whirlpoolDemo:id/tvMultiSelectDropDown")
+2025-10-06T10:14:54.455Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/element
+2025-10-06T10:14:54.455Z INFO webdriver: DATA {
+  using: 'id',
+  value: 'com.blubirch.rims.whirlpoolDemo:id/tvMultiSelectDropDown'
+}
+2025-10-06T10:14:54.549Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-132b-ffff-ffff00000219',
+  ELEMENT: '00000000-0000-132b-ffff-ffff00000219'
+}
+2025-10-06T10:14:54.553Z INFO webdriver: COMMAND elementClick("00000000-0000-132b-ffff-ffff00000241")
+2025-10-06T10:14:54.553Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/element/00000000-0000-132b-ffff-ffff00000241/click
+2025-10-06T10:14:54.607Z INFO webdriver: COMMAND findElement("id", "com.blubirch.rims.whirlpoolDemo:id/tvMultiSelectDropDown")
+2025-10-06T10:14:54.608Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/element
+2025-10-06T10:14:54.608Z INFO webdriver: DATA {
+  using: 'id',
+  value: 'com.blubirch.rims.whirlpoolDemo:id/tvMultiSelectDropDown'
+}
+2025-10-06T10:14:54.683Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-132b-ffff-ffff00000219',
+  ELEMENT: '00000000-0000-132b-ffff-ffff00000219'
+}
+2025-10-06T10:14:54.687Z INFO webdriver: COMMAND elementClick("00000000-0000-132b-ffff-ffff00000219")
+2025-10-06T10:14:54.688Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/element/00000000-0000-132b-ffff-ffff00000219/click
+2025-10-06T10:14:54.784Z INFO webdriver: RESULT null
+2025-10-06T10:14:54.784Z INFO webdriver: COMMAND findElement("id", "com.blubirch.rims.whirlpoolDemo:id/chkItem")
+2025-10-06T10:14:54.785Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/element
+2025-10-06T10:14:54.785Z INFO webdriver: DATA { using: 'id', value: 'com.blubirch.rims.whirlpoolDemo:id/chkItem' }
+2025-10-06T10:14:54.960Z INFO webdriver: RESULT {
+  error: 'no such element',
+  message: 'An element could not be located on the page using the given search parameters.',
+  stacktrace: 'NoSuchElementError: An element could not be located on the page using the given search parameters.\n' +
+    '    at AndroidUiautomator2Driver.findElOrEls (C:\\Users\\Blubirch.DESKTOP-EN2LGLN\\PLAYWRIGHT AUTOMATION\\node_modules\\appium\\node_modules\\appium-android-driver\\lib\\commands\\find.js:75:11)\n' +
+    '    at processTicksAndRejections (node:internal/process/task_queues:95:5)\n' +
+    '    at AndroidUiautomator2Driver.findElOrElsWithProcessing (C:\\Users\\Blubirch.DESKTOP-EN2LGLN\\PLAYWRIGHT AUTOMATION\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\basedriver\\commands\\find.js:33:12)\n' +
+    '    at AndroidUiautomator2Driver.findElement (C:\\Users\\Blubirch.DESKTOP-EN2LGLN\\PLAYWRIGHT AUTOMATION\\node_modules\\appium\\node_modules\\appium-base-driver\\lib\\basedriver\\commands\\find.js:53:10)'
+}
+2025-10-06T10:14:54.967Z INFO webdriver: COMMAND findElements("id", "com.blubirch.rims.whirlpoolDemo:id/chkItem")
+2025-10-06T10:14:54.968Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/elements
+2025-10-06T10:14:54.968Z INFO webdriver: DATA { using: 'id', value: 'com.blubirch.rims.whirlpoolDemo:id/chkItem' }
+2025-10-06T10:14:55.774Z INFO webdriver: RESULT [
+  {
+    'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-1336-ffff-ffff000002ab',
+    ELEMENT: '00000000-0000-1336-ffff-ffff000002ab'
+  }
+]
+2025-10-06T10:14:55.792Z INFO webdriver: COMMAND findElement("id", "com.blubirch.rims.whirlpoolDemo:id/chkItem")
+2025-10-06T10:14:55.792Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/element
+2025-10-06T10:14:55.793Z INFO webdriver: DATA { using: 'id', value: 'com.blubirch.rims.whirlpoolDemo:id/chkItem' }
+2025-10-06T10:14:55.858Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-1336-ffff-ffff000002ab',
+  ELEMENT: '00000000-0000-1336-ffff-ffff000002ab'
+}
+2025-10-06T10:14:55.865Z INFO webdriver: COMMAND findElement("id", "com.blubirch.rims.whirlpoolDemo:id/chkItem")
+2025-10-06T10:14:55.866Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/element
+2025-10-06T10:14:55.866Z INFO webdriver: DATA { using: 'id', value: 'com.blubirch.rims.whirlpoolDemo:id/chkItem' }
+2025-10-06T10:14:55.909Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-1336-ffff-ffff000002ab',
+  ELEMENT: '00000000-0000-1336-ffff-ffff000002ab'
+}
+2025-10-06T10:14:55.918Z INFO webdriver: COMMAND elementClick("00000000-0000-1336-ffff-ffff000002ab")
+2025-10-06T10:14:55.919Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/element/00000000-0000-1336-ffff-ffff000002ab/click
+2025-10-06T10:14:56.009Z INFO webdriver: RESULT null
+2025-10-06T10:14:56.011Z INFO webdriver: COMMAND findElement("id", "android:id/button1")
+2025-10-06T10:14:56.013Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/element
+2025-10-06T10:14:56.013Z INFO webdriver: DATA { using: 'id', value: 'android:id/button1' }
+2025-10-06T10:14:56.697Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-1336-ffff-ffff000002a8',
+  ELEMENT: '00000000-0000-1336-ffff-ffff000002a8'
+}
+2025-10-06T10:14:56.709Z INFO webdriver: COMMAND elementClick("00000000-0000-1336-ffff-ffff000002a8")
+2025-10-06T10:14:56.710Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/element/00000000-0000-1336-ffff-ffff000002a8/click
+2025-10-06T10:14:56.811Z INFO webdriver: RESULT null
+2025-10-06T10:14:56.813Z INFO webdriver: COMMAND elementClick("00000000-0000-132b-ffff-ffff00000219")
+2025-10-06T10:14:56.815Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/element/00000000-0000-132b-ffff-ffff00000219/click
+2025-10-06T10:14:56.879Z INFO webdriver: COMMAND findElement("id", "com.blubirch.rims.whirlpoolDemo:id/tvMultiSelectDropDown")
+2025-10-06T10:14:56.880Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/element
+2025-10-06T10:14:56.880Z INFO webdriver: DATA {
+  using: 'id',
+  value: 'com.blubirch.rims.whirlpoolDemo:id/tvMultiSelectDropDown'
+}
+2025-10-06T10:14:58.081Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-132b-ffff-ffff000002d9',
+  ELEMENT: '00000000-0000-132b-ffff-ffff000002d9'
+}
+2025-10-06T10:14:58.097Z INFO webdriver: COMMAND elementClick("00000000-0000-132b-ffff-ffff00000219")
+2025-10-06T10:14:58.098Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/element/00000000-0000-132b-ffff-ffff00000219/click
+2025-10-06T10:14:58.204Z INFO webdriver: RESULT null
+2025-10-06T10:14:58.205Z INFO webdriver: COMMAND elementClick("00000000-0000-1336-ffff-ffff000002ab")
+2025-10-06T10:14:58.206Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/element/00000000-0000-1336-ffff-ffff000002ab/click
+2025-10-06T10:14:59.184Z INFO webdriver: COMMAND findElement("id", "com.blubirch.rims.whirlpoolDemo:id/chkItem")
+2025-10-06T10:14:59.185Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/element
+2025-10-06T10:14:59.185Z INFO webdriver: DATA { using: 'id', value: 'com.blubirch.rims.whirlpoolDemo:id/chkItem' }
+2025-10-06T10:14:59.236Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-1337-ffff-ffff00000302',
+  ELEMENT: '00000000-0000-1337-ffff-ffff00000302'
+}
+2025-10-06T10:14:59.243Z INFO webdriver: COMMAND elementClick("00000000-0000-1336-ffff-ffff000002ab")
+2025-10-06T10:14:59.245Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/element/00000000-0000-1336-ffff-ffff000002ab/click
+2025-10-06T10:14:59.301Z INFO webdriver: COMMAND findElement("id", "com.blubirch.rims.whirlpoolDemo:id/chkItem")
+2025-10-06T10:14:59.302Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/element
+2025-10-06T10:14:59.302Z INFO webdriver: DATA { using: 'id', value: 'com.blubirch.rims.whirlpoolDemo:id/chkItem' }
+2025-10-06T10:14:59.347Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-1337-ffff-ffff00000302',
+  ELEMENT: '00000000-0000-1337-ffff-ffff00000302'
+}
+2025-10-06T10:14:59.355Z INFO webdriver: COMMAND elementClick("00000000-0000-1337-ffff-ffff00000302")
+2025-10-06T10:14:59.355Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/element/00000000-0000-1337-ffff-ffff00000302/click
+2025-10-06T10:14:59.449Z INFO webdriver: RESULT null
+2025-10-06T10:14:59.450Z INFO webdriver: COMMAND elementClick("00000000-0000-1336-ffff-ffff000002a8")
+2025-10-06T10:14:59.451Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/element/00000000-0000-1336-ffff-ffff000002a8/click
+2025-10-06T10:15:00.263Z INFO webdriver: COMMAND findElement("id", "android:id/button1")
+2025-10-06T10:15:00.264Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/element
+2025-10-06T10:15:00.264Z INFO webdriver: DATA { using: 'id', value: 'android:id/button1' }
+2025-10-06T10:15:00.346Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-1337-ffff-ffff000002ff',
+  ELEMENT: '00000000-0000-1337-ffff-ffff000002ff'
+}
+2025-10-06T10:15:00.349Z INFO webdriver: COMMAND elementClick("00000000-0000-1336-ffff-ffff000002a8")
+2025-10-06T10:15:00.349Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/element/00000000-0000-1336-ffff-ffff000002a8/click
+2025-10-06T10:15:00.413Z INFO webdriver: COMMAND findElement("id", "android:id/button1")
+2025-10-06T10:15:00.413Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/element
+2025-10-06T10:15:00.414Z INFO webdriver: DATA { using: 'id', value: 'android:id/button1' }
+2025-10-06T10:15:00.493Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-1337-ffff-ffff000002ff',
+  ELEMENT: '00000000-0000-1337-ffff-ffff000002ff'
+}
+2025-10-06T10:15:00.504Z INFO webdriver: COMMAND elementClick("00000000-0000-1337-ffff-ffff000002ff")
+2025-10-06T10:15:00.505Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/element/00000000-0000-1337-ffff-ffff000002ff/click
+2025-10-06T10:15:00.601Z INFO webdriver: RESULT null
+2025-10-06T10:15:00.602Z INFO webdriver: COMMAND elementClick("00000000-0000-132b-ffff-ffff0000013b")
+2025-10-06T10:15:00.604Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/element/00000000-0000-132b-ffff-ffff0000013b/click
+2025-10-06T10:15:01.665Z INFO webdriver: RESULT null
+2025-10-06T10:15:01.666Z INFO webdriver: COMMAND findElement("id", "com.blubirch.rims.whirlpoolDemo:id/btnProceed")
+2025-10-06T10:15:01.667Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/element
+2025-10-06T10:15:01.668Z INFO webdriver: DATA { using: 'id', value: 'com.blubirch.rims.whirlpoolDemo:id/btnProceed' }
+2025-10-06T10:15:03.081Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-1339-ffff-ffff00000319',
+  ELEMENT: '00000000-0000-1339-ffff-ffff00000319'
+}
+2025-10-06T10:15:03.095Z INFO webdriver: COMMAND elementClick("00000000-0000-1339-ffff-ffff00000319")
+2025-10-06T10:15:03.096Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/element/00000000-0000-1339-ffff-ffff00000319/click
+2025-10-06T10:15:03.190Z INFO webdriver: RESULT null
+2025-10-06T10:15:03.191Z INFO webdriver: COMMAND findElement("xpath", "//android.widget.EditText[@resource-id="com.blubirch.rims.whirlpoolDemo:id/editText" and @text="Tag ID"]")
+2025-10-06T10:15:03.191Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/element
+2025-10-06T10:15:03.192Z INFO webdriver: DATA {
+  using: 'xpath',
+  value: '//android.widget.EditText[@resource-id="com.blubirch.rims.whirlpoolDemo:id/editText" and @text="Tag ID"]'
+}
+2025-10-06T10:15:04.691Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-1325-ffff-ffff00000326',
+  ELEMENT: '00000000-0000-1325-ffff-ffff00000326'
+}
+2025-10-06T10:15:04.709Z INFO webdriver: COMMAND elementClear("00000000-0000-1325-ffff-ffff00000326")
+2025-10-06T10:15:04.711Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/element/00000000-0000-1325-ffff-ffff00000326/clear
+2025-10-06T10:15:04.781Z INFO webdriver: RESULT null
+2025-10-06T10:15:04.782Z INFO webdriver: COMMAND elementSendKeys("00000000-0000-1325-ffff-ffff00000326", "T-O2507Q")
+2025-10-06T10:15:04.783Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/element/00000000-0000-1325-ffff-ffff00000326/value
+2025-10-06T10:15:04.783Z INFO webdriver: DATA { text: 'T-O2507Q' }
+2025-10-06T10:15:06.191Z INFO webdriver: RESULT null
+2025-10-06T10:15:06.193Z INFO webdriver: COMMAND findElement("id", "com.blubirch.rims.whirlpoolDemo:id/btnGenerateGRN")
+2025-10-06T10:15:06.194Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/element
+2025-10-06T10:15:06.195Z INFO webdriver: DATA {
+  using: 'id',
+  value: 'com.blubirch.rims.whirlpoolDemo:id/btnGenerateGRN'
+}
+2025-10-06T10:15:06.915Z INFO webdriver: RESULT {
+  'element-6066-11e4-a52e-4f735466cecf': '00000000-0000-1325-ffff-ffff0000033f',
+  ELEMENT: '00000000-0000-1325-ffff-ffff0000033f'
+}
+2025-10-06T10:15:06.920Z INFO webdriver: COMMAND elementClick("00000000-0000-1325-ffff-ffff0000033f")
+2025-10-06T10:15:06.921Z INFO webdriver: [POST] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f/element/00000000-0000-1325-ffff-ffff0000033f/click
+2025-10-06T10:15:07.004Z INFO webdriver: RESULT null
+2025-10-06T10:15:07.053Z INFO webdriver: COMMAND deleteSession()
+2025-10-06T10:15:07.054Z INFO webdriver: [DELETE] http://localhost:4723/wd/hub/session/d43a4cd3-b590-4389-a280-44a3a559738f
+2025-10-06T10:15:07.691Z INFO webdriver: RESULT null

@@ -1,0 +1,310 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e5]:
+    - generic [ref=e6]:
+      - navigation [ref=e7]:
+        - generic [ref=e8]:
+          - link "Blubirch Logo" [ref=e13] [cursor=pointer]:
+            - /url: "#"
+            - img "Blubirch Logo" [ref=e14] [cursor=pointer]
+          - generic [ref=e16]:
+            - button "Tag ID" [ref=e17] [cursor=pointer]:
+              - generic [ref=e18] [cursor=pointer]: Tag ID
+            - button "IRD" [ref=e19] [cursor=pointer]:
+              - generic [ref=e20] [cursor=pointer]: IRD
+          - generic [ref=e25]:
+            - generic [ref=e27]:
+              - generic [ref=e29]: 󰍉
+              - textbox "Search-Item" [ref=e31]
+              - generic [ref=e33]: 󰊓
+            - alert [ref=e34]
+          - listbox [ref=e36]:
+            - generic [ref=e39] [cursor=pointer]:
+              - img [ref=e40] [cursor=pointer]
+              - text: RIA
+              - button "󰅀" [ref=e41] [cursor=pointer]
+            - generic [ref=e42]:
+              - generic [ref=e44] [cursor=pointer]:
+                - img [ref=e45] [cursor=pointer]
+                - text: RIMS
+                - button "󰅂" [ref=e46] [cursor=pointer]
+              - group "󰅂" [ref=e49]:
+                - listbox [ref=e50]:
+                  - link "PRD" [ref=e51] [cursor=pointer]:
+                    - /url: /api/v1/prd/PRD
+                    - generic [ref=e55] [cursor=pointer]: PRD
+                - listbox [ref=e56]:
+                  - generic [ref=e61] [cursor=pointer]: Disposition
+                - listbox [ref=e64]:
+                  - link "Inwarding" [ref=e65] [cursor=pointer]:
+                    - /url: /api/v2/inward
+                    - generic [ref=e69] [cursor=pointer]: Inwarding
+                - listbox [ref=e70]:
+                  - link "Grading" [ref=e71] [cursor=pointer]:
+                    - /url: /api/v2/grading
+                    - generic [ref=e75] [cursor=pointer]: Grading
+                - listbox [ref=e76]:
+                  - link "Pending Approval" [ref=e77] [cursor=pointer]:
+                    - /url: /api/v1/warehouse/physical_inspection/Approval
+                    - generic [ref=e81] [cursor=pointer]: Pending Approval
+                - listbox [ref=e82]:
+                  - link "Change Disposition" [ref=e83] [cursor=pointer]:
+                    - /url: /api/v2/rims/change_disposition
+                    - generic [ref=e87] [cursor=pointer]: Change Disposition
+                - listbox [ref=e88]:
+                  - link "Put Away / Pick Up" [ref=e89] [cursor=pointer]:
+                    - /url: /api/v1/warehouse/put_away
+                    - generic [ref=e93] [cursor=pointer]: Put Away / Pick Up
+                - listbox [ref=e94]:
+                  - link "Transfer" [ref=e95] [cursor=pointer]:
+                    - /url: /api/v2/forward/transfer
+                    - generic [ref=e99] [cursor=pointer]: Transfer
+                - listbox [ref=e100]:
+                  - link "Dispatch" [ref=e101] [cursor=pointer]:
+                    - /url: /api/v2/reverse/dispatch
+                    - generic [ref=e105] [cursor=pointer]: Dispatch
+                - listbox [ref=e106]:
+                  - link "Cycle Count" [ref=e107] [cursor=pointer]:
+                    - /url: /api/v1/warehouse/physical_inspection
+                    - generic [ref=e111] [cursor=pointer]: Cycle Count
+                - listbox [ref=e112]:
+                  - link "Claim Tracking" [ref=e113] [cursor=pointer]:
+                    - /url: /api/v1/3p-claim
+                    - generic [ref=e117] [cursor=pointer]: Claim Tracking
+                - listbox [ref=e118]:
+                  - link "Generate IDs" [ref=e119] [cursor=pointer]:
+                    - /url: /api/v2/generateTrackIds/generate
+                    - generic [ref=e123] [cursor=pointer]: Generate IDs
+            - generic [ref=e126] [cursor=pointer]:
+              - img [ref=e127] [cursor=pointer]
+              - text: Analytics
+              - button "󰅀" [ref=e128] [cursor=pointer]
+            - link "Notification" [ref=e129] [cursor=pointer]:
+              - /url: /alert-component
+              - generic [ref=e131] [cursor=pointer]:
+                - img [ref=e132] [cursor=pointer]
+                - generic [ref=e133] [cursor=pointer]: Notification
+            - generic [ref=e134]:
+              - generic [ref=e136] [cursor=pointer]:
+                - img [ref=e137] [cursor=pointer]
+                - text: Settings
+                - button "󰅀" [ref=e138] [cursor=pointer]
+              - group "󰅀" [ref=e139]:
+                - listbox [ref=e140]:
+                  - link "Inward" [ref=e141] [cursor=pointer]:
+                    - /url: /api/v1/manual_process/store-master-upload-list
+                    - generic [ref=e145] [cursor=pointer]: Inward
+                - listbox [ref=e146]:
+                  - link "Putaway" [ref=e147] [cursor=pointer]:
+                    - /url: /api/v1/configuration_settings/sub-locations
+                    - generic [ref=e151] [cursor=pointer]: Putaway
+                - listbox [ref=e152]:
+                  - link "Insurance" [ref=e153] [cursor=pointer]:
+                    - /url: /insurance
+                    - generic [ref=e157] [cursor=pointer]: Insurance
+                - listbox [ref=e158]:
+                  - link "Item Master" [ref=e159] [cursor=pointer]:
+                    - /url: /api/v2/item-master
+                    - generic [ref=e163] [cursor=pointer]: Item Master
+                - listbox [ref=e164]:
+                  - link "Location Master" [ref=e165] [cursor=pointer]:
+                    - /url: /api/v2/location-master
+                    - generic [ref=e169] [cursor=pointer]: Location Master
+                - listbox [ref=e170]:
+                  - link "User Master" [ref=e171] [cursor=pointer]:
+                    - /url: /api/v2/config_setting/user_master
+                    - generic [ref=e175] [cursor=pointer]: User Master
+                - listbox [ref=e176]:
+                  - link "Vendor Master" [ref=e177] [cursor=pointer]:
+                    - /url: /api/v2/config_setting/vendor_master
+                    - generic [ref=e181] [cursor=pointer]: Vendor Master
+                - listbox [ref=e182]:
+                  - link "Approval Matrix" [ref=e183] [cursor=pointer]:
+                    - /url: /api/v2/config_setting/approval_matrix
+                    - generic [ref=e187] [cursor=pointer]: Approval Matrix
+                - listbox [ref=e188]:
+                  - link "Error Listing" [ref=e189] [cursor=pointer]:
+                    - /url: /api/v2/error-listing
+                    - generic [ref=e193] [cursor=pointer]: Error Listing
+                - listbox [ref=e194]:
+                  - link "Manage Buyer" [ref=e195] [cursor=pointer]:
+                    - /url: /api/v2/setting/manage-user
+                    - generic [ref=e199] [cursor=pointer]: Manage Buyer
+                - listbox [ref=e200]:
+                  - link "AI Pricing File Upload" [ref=e201] [cursor=pointer]:
+                    - /url: /api/v2/lot-file-upload
+                    - generic [ref=e205] [cursor=pointer]: AI Pricing File Upload
+                - listbox [ref=e206]:
+                  - link "API Configuration" [ref=e207] [cursor=pointer]:
+                    - /url: /api/v2/api-configuration
+                    - generic [ref=e211] [cursor=pointer]: API Configuration
+                - listbox [ref=e212]:
+                  - link "Grade Configuration" [ref=e213] [cursor=pointer]:
+                    - /url: /api/v2/setting/grade
+                    - generic [ref=e217] [cursor=pointer]: Grade Configuration
+      - button [ref=e218] [cursor=pointer]:
+        - generic [ref=e220] [cursor=pointer]: 󰄽
+    - generic [ref=e222]:
+      - generic [ref=e224]:
+        - generic [ref=e225]:
+          - generic [ref=e226]:
+            - text: Liquidation
+            - generic [ref=e227]:
+              - link "Create Lot (Competitive Bidding)" [ref=e228] [cursor=pointer]:
+                - /url: /v1/warehouse/liquidationNew
+                - generic [ref=e229] [cursor=pointer]: Create Lot (Competitive Bidding)
+              - img [ref=e230]
+              - generic [ref=e232]: Create Lot
+            - generic:
+              - link:
+                - /url: /v1/warehouse/liquidation
+          - generic [ref=e233]:
+            - img [ref=e235] [cursor=pointer]
+            - generic [ref=e237]:
+              - generic [ref=e239]: dava
+              - generic [ref=e241]: admin
+            - combobox [ref=e245]:
+              - generic [ref=e246]:
+                - generic: ALL RPA
+                - textbox "ALL RPA ALL RPA" [ref=e248] [cursor=pointer]
+              - button "Open" [ref=e250] [cursor=pointer]: 󰍝
+        - separator [ref=e251]
+      - generic [ref=e254]:
+        - generic [ref=e255]:
+          - generic [ref=e256]:
+            - generic [ref=e258]: Lot Name
+            - generic [ref=e260]:
+              - generic [ref=e262]:
+                - textbox "Lot Name Lot Name" [ref=e264]: Lot || Top Brand || 127 items || As in condition || Hyderabad || 237328374931353 || 18:45
+                - generic:
+                  - generic:
+                    - generic: Lot Name
+              - alert [ref=e265]:
+                - generic [ref=e267]: "Standard Lot Name structure: Category||Brand||City||Enddate"
+          - generic [ref=e268]:
+            - generic [ref=e270]: Lot Description
+            - generic [ref=e272]:
+              - generic [ref=e274]:
+                - textbox "Lot Description Lot Description" [ref=e276]: Lot || Top Brand || 127 items || As in Condition || Hyderabad || 237328374931353 || 18:45
+                - generic:
+                  - generic:
+                    - generic: Lot Description
+              - alert [ref=e277]
+          - generic [ref=e279]:
+            - generic [ref=e281]: Price details
+            - generic [ref=e283]:
+              - combobox [ref=e285]:
+                - generic [ref=e287]:
+                  - generic [ref=e289]: "1000"
+                  - textbox "Bid Value to be Multiple of Bid Value to be Multiple of" [ref=e290]: "1000"
+                - button "Open" [ref=e292] [cursor=pointer]: 󰍝
+                - generic:
+                  - generic:
+                    - generic: Bid Value to be Multiple of
+              - alert [ref=e293]
+            - generic [ref=e295]:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - textbox "MRP MRP" [disabled]: 1,20,000
+                    - generic:
+                      - generic:
+                        - generic: MRP
+                - alert
+          - generic [ref=e296]:
+            - generic [ref=e299]:
+              - generic [ref=e301]:
+                - textbox "Buy Now Price (₹) Buy Now Price (₹)" [ref=e303]: 5,000
+                - generic:
+                  - generic:
+                    - generic: Buy Now Price (₹)
+              - alert [ref=e304]
+            - generic [ref=e307]:
+              - generic [ref=e309]:
+                - textbox "Reserve Price (₹) Reserve Price (₹)" [ref=e311]: 4,000
+                - generic:
+                  - generic:
+                    - generic: Reserve Price (₹)
+              - alert [ref=e312]
+          - generic [ref=e317]:
+            - generic [ref=e319]:
+              - textbox "Floor Price (₹) Floor Price (₹)" [ref=e321]: 2,000
+              - generic:
+                - generic:
+                  - generic: Floor Price (₹)
+            - alert [ref=e322]
+          - generic [ref=e324]:
+            - generic [ref=e326]: Item Attachments
+            - generic [ref=e327]:
+              - button "Lot Images" [ref=e331] [cursor=pointer]:
+                - text: Lot Images
+                - generic [ref=e334] [cursor=pointer]: 󰁦
+              - generic [ref=e335]: "Images attached: 0 of 1"
+            - generic [ref=e338]:
+              - button "Lot Videos" [disabled]: Lot Videos
+          - generic [ref=e340]:
+            - generic [ref=e342]: Lot Duration Details
+            - generic [ref=e344]:
+              - generic [ref=e346]:
+                - generic [ref=e348]: 󰃭
+                - textbox "Bid Start Date Bid Start Date" [ref=e350] [cursor=pointer]: 06-10-2025
+                - generic:
+                  - generic:
+                    - generic: Bid Start Date
+              - alert [ref=e351]
+            - generic [ref=e356]:
+              - textbox "Bid Start Time Bid Start Time" [ref=e358] [cursor=pointer]: 17:00
+              - generic [ref=e360]: 󱑎
+              - generic:
+                - generic:
+                  - generic: Bid Start Time
+          - generic [ref=e361]:
+            - generic [ref=e364]:
+              - generic [ref=e366]:
+                - generic [ref=e368]: 󰃭
+                - textbox "Bid End Date Bid End Date" [ref=e370] [cursor=pointer]: 06-10-2025
+                - generic:
+                  - generic:
+                    - generic: Bid End Date
+              - alert [ref=e371]
+            - generic [ref=e376]:
+              - textbox "Bid End Time Bid End Time" [ref=e378] [cursor=pointer]: 17:00
+              - generic [ref=e380]: 󱑎
+              - generic:
+                - generic:
+                  - generic: Bid End Time
+          - generic [ref=e381]:
+            - generic [ref=e383]: Delivery Timeline
+            - generic [ref=e385]:
+              - generic [ref=e388]:
+                - generic: Enter the no. of days from the date of payment
+                - spinbutton "Enter the no. of days from the date of payment Enter the no. of days from the date of payment" [ref=e389]
+              - alert [ref=e390]
+          - generic [ref=e392]:
+            - generic [ref=e394]: Select Approved Buyers
+            - generic [ref=e396]:
+              - combobox [ref=e398]:
+                - generic [ref=e399]:
+                  - generic: Search & Select from the list
+                  - textbox "Search & Select from the list Search & Select from the list" [ref=e401]
+                - text: 󰅙
+                - button "Open" [ref=e403] [cursor=pointer]: 󰍝
+              - alert [ref=e404]
+          - generic [ref=e406]:
+            - generic [ref=e408]: Additional Information
+            - generic [ref=e410]:
+              - generic [ref=e413]:
+                - generic: Add Remarks here
+                - textbox "Add Remarks here Add Remarks here" [ref=e414]
+              - alert [ref=e415]
+        - generic [ref=e417]:
+          - img [ref=e419]
+          - button "SUBMIT" [ref=e420] [cursor=pointer]:
+            - generic [ref=e421] [cursor=pointer]: SUBMIT
+  - generic:
+    - tooltip
+    - tooltip
+```

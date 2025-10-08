@@ -1,0 +1,1479 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e5]:
+    - generic [ref=e6]:
+      - navigation [ref=e7]:
+        - generic [ref=e8]:
+          - link "Blubirch Logo" [ref=e13] [cursor=pointer]:
+            - /url: "#"
+            - img "Blubirch Logo" [ref=e14] [cursor=pointer]
+          - generic [ref=e16]:
+            - button "Tag ID" [ref=e17] [cursor=pointer]:
+              - generic [ref=e18] [cursor=pointer]: Tag ID
+            - button "IRD" [ref=e19] [cursor=pointer]:
+              - generic [ref=e20] [cursor=pointer]: IRD
+          - generic [ref=e25]:
+            - generic [ref=e27]:
+              - generic [ref=e29]: 󰍉
+              - textbox "Search-Item" [ref=e31]
+              - generic [ref=e33]: 󰊓
+            - alert [ref=e34]
+          - listbox [ref=e36]:
+            - generic [ref=e39] [cursor=pointer]:
+              - img [ref=e40] [cursor=pointer]
+              - text: RIA
+              - button "󰅀" [ref=e41] [cursor=pointer]
+            - generic [ref=e42]:
+              - generic [ref=e44] [cursor=pointer]:
+                - img [ref=e45] [cursor=pointer]
+                - text: RIMS
+                - button "󰅂" [ref=e46] [cursor=pointer]
+              - group "󰅂" [ref=e49]:
+                - listbox [ref=e50]:
+                  - link "PRD" [ref=e51] [cursor=pointer]:
+                    - /url: /api/v1/prd/PRD
+                    - generic [ref=e55] [cursor=pointer]: PRD
+                - listbox [ref=e56]:
+                  - generic [ref=e61] [cursor=pointer]: Disposition
+                - listbox [ref=e64]:
+                  - link "Inwarding" [ref=e65] [cursor=pointer]:
+                    - /url: /api/v2/inward
+                    - generic [ref=e69] [cursor=pointer]: Inwarding
+                - listbox [ref=e70]:
+                  - link "Grading" [ref=e71] [cursor=pointer]:
+                    - /url: /api/v2/grading
+                    - generic [ref=e75] [cursor=pointer]: Grading
+                - listbox [ref=e76]:
+                  - link "Pending Approval" [ref=e77] [cursor=pointer]:
+                    - /url: /api/v1/warehouse/physical_inspection/Approval
+                    - generic [ref=e81] [cursor=pointer]: Pending Approval
+                - listbox [ref=e82]:
+                  - link "Change Disposition" [ref=e83] [cursor=pointer]:
+                    - /url: /api/v2/rims/change_disposition
+                    - generic [ref=e87] [cursor=pointer]: Change Disposition
+                - listbox [ref=e88]:
+                  - link "Put Away / Pick Up" [ref=e89] [cursor=pointer]:
+                    - /url: /api/v1/warehouse/put_away
+                    - generic [ref=e93] [cursor=pointer]: Put Away / Pick Up
+                - listbox [ref=e94]:
+                  - link "Transfer" [ref=e95] [cursor=pointer]:
+                    - /url: /api/v2/forward/transfer
+                    - generic [ref=e99] [cursor=pointer]: Transfer
+                - listbox [ref=e100]:
+                  - link "Dispatch" [ref=e101] [cursor=pointer]:
+                    - /url: /api/v2/reverse/dispatch
+                    - generic [ref=e105] [cursor=pointer]: Dispatch
+                - listbox [ref=e106]:
+                  - link "Cycle Count" [ref=e107] [cursor=pointer]:
+                    - /url: /api/v1/warehouse/physical_inspection
+                    - generic [ref=e111] [cursor=pointer]: Cycle Count
+                - listbox [ref=e112]:
+                  - link "Claim Tracking" [ref=e113] [cursor=pointer]:
+                    - /url: /api/v1/3p-claim
+                    - generic [ref=e117] [cursor=pointer]: Claim Tracking
+                - listbox [ref=e118]:
+                  - link "Generate IDs" [ref=e119] [cursor=pointer]:
+                    - /url: /api/v2/generateTrackIds/generate
+                    - generic [ref=e123] [cursor=pointer]: Generate IDs
+            - generic [ref=e126] [cursor=pointer]:
+              - img [ref=e127] [cursor=pointer]
+              - text: Analytics
+              - button "󰅀" [ref=e128] [cursor=pointer]
+            - link "Notification" [ref=e129] [cursor=pointer]:
+              - /url: /alert-component
+              - generic [ref=e131] [cursor=pointer]:
+                - img [ref=e132] [cursor=pointer]
+                - generic [ref=e133] [cursor=pointer]: Notification
+            - generic [ref=e136] [cursor=pointer]:
+              - img [ref=e137] [cursor=pointer]
+              - text: Settings
+              - button "󰅀" [ref=e138] [cursor=pointer]
+      - button [ref=e139] [cursor=pointer]:
+        - generic [ref=e141] [cursor=pointer]: 󰄽
+    - generic [ref=e142]:
+      - generic [ref=e144]:
+        - generic [ref=e145]:
+          - generic [ref=e146]:
+            - text: Liquidation
+            - generic:
+              - link:
+                - /url: /v1/warehouse/liquidationNew
+            - generic:
+              - link:
+                - /url: /v1/warehouse/liquidationNew
+          - generic [ref=e147]:
+            - img [ref=e149] [cursor=pointer]
+            - generic [ref=e151]:
+              - generic [ref=e153]: dava
+              - generic [ref=e155]: admin
+            - combobox [ref=e159]:
+              - generic [ref=e160]:
+                - generic: ALL RPA
+                - textbox "ALL RPA ALL RPA" [ref=e162] [cursor=pointer]
+              - button "Open" [ref=e164] [cursor=pointer]: 󰍝
+        - separator [ref=e165]
+      - tablist [ref=e167]:
+        - generic:
+          - generic: 󰅁
+        - generic [ref=e169]:
+          - tab "Channel" [ref=e170] [cursor=pointer]:
+            - generic [ref=e171] [cursor=pointer]: Channel
+          - tab "Sales Method" [selected] [ref=e172] [cursor=pointer]:
+            - generic [ref=e173] [cursor=pointer]: Sales Method
+          - tab "Create Lots" [ref=e175] [cursor=pointer]:
+            - generic [ref=e177] [cursor=pointer]:
+              - text: Create Lots
+              - generic [ref=e178] [cursor=pointer]: 󰍝
+          - tab "Publish" [ref=e180] [cursor=pointer]:
+            - generic [ref=e182] [cursor=pointer]:
+              - text: Publish
+              - generic [ref=e183] [cursor=pointer]: 󰍝
+          - tab "In Progress" [ref=e185] [cursor=pointer]:
+            - generic [ref=e187] [cursor=pointer]:
+              - text: In Progress
+              - generic [ref=e188] [cursor=pointer]: 󰍝
+          - tab "Pending Dec" [ref=e189] [cursor=pointer]:
+            - generic [ref=e190] [cursor=pointer]: Pending Dec
+          - tab "Lot Approval" [ref=e191] [cursor=pointer]:
+            - generic [ref=e192] [cursor=pointer]: Lot Approval
+          - tab "Pending Pmt" [ref=e193] [cursor=pointer]:
+            - generic [ref=e194] [cursor=pointer]: Pending Pmt
+          - tab "Lot Handover" [ref=e195] [cursor=pointer]:
+            - generic [ref=e196] [cursor=pointer]: Lot Handover
+          - tab "Dispatch" [ref=e197] [cursor=pointer]:
+            - generic [ref=e198] [cursor=pointer]: Dispatch
+          - tab "Pending For Approval" [ref=e199] [cursor=pointer]:
+            - generic [ref=e200] [cursor=pointer]: Pending For Approval
+        - generic [ref=e202] [cursor=pointer]: 󰅂
+      - generic [ref=e204]:
+        - generic [ref=e205]:
+          - combobox [ref=e207]:
+            - generic [ref=e208]:
+              - generic: Select Field
+              - textbox "Select Field Select Field" [ref=e210]
+            - button "Open" [ref=e212] [cursor=pointer]: 󰍝
+          - alert [ref=e213]
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - generic: 󰍉
+              - generic:
+                - generic: Search
+                - textbox "Search Search" [disabled]
+          - alert
+        - button "Select Action" [expanded] [active] [ref=e217] [cursor=pointer]:
+          - generic [ref=e218] [cursor=pointer]:
+            - text: Select Action
+            - generic [ref=e219] [cursor=pointer]: 󰍝
+        - button "Filter" [ref=e223] [cursor=pointer]:
+          - text: Filter
+          - generic [ref=e226] [cursor=pointer]: 󰅀
+      - table [ref=e231]:
+        - rowgroup [ref=e232]:
+          - row "Tag ID Article ID Article Description Category Grade Benchmark Price (₹) E-waste? Ageing Sub-Location IRRD Number IRD Number Serial Number" [ref=e233]:
+            - cell [ref=e234]:
+              - generic [ref=e237]:
+                - generic [ref=e238]: 󰍵
+                - checkbox [ref=e239] [cursor=pointer]
+            - cell "Tag ID" [ref=e240]:
+              - generic [ref=e242]: Tag ID
+            - cell "Article ID" [ref=e243]:
+              - generic [ref=e244]:
+                - generic [ref=e245]: Article ID
+                - generic [ref=e246]: 󰁝
+            - cell "Article Description" [ref=e247]:
+              - generic [ref=e248]:
+                - generic [ref=e249]: Article Description
+                - generic [ref=e250]: 󰁝
+            - cell "Category" [ref=e251]:
+              - generic [ref=e252]:
+                - generic [ref=e253]: Category
+                - generic [ref=e254]: 󰁝
+            - cell "Grade" [ref=e255]:
+              - generic [ref=e256]:
+                - generic [ref=e257]: Grade
+                - generic [ref=e258]: 󰁝
+            - cell "Benchmark Price (₹)" [ref=e259]:
+              - generic [ref=e260]:
+                - generic [ref=e261]: Benchmark Price (₹)
+                - generic [ref=e262]: 󰁝
+            - cell "E-waste?" [ref=e263]:
+              - generic [ref=e264]:
+                - generic [ref=e265]: E-waste?
+                - generic [ref=e266]: 󰁝
+            - cell "Ageing" [ref=e267]:
+              - generic [ref=e268]:
+                - text: Ageing
+                - generic [ref=e269]: 󰋼
+            - cell "Sub-Location" [ref=e270]:
+              - generic [ref=e271]:
+                - generic [ref=e272]: Sub-Location
+                - generic [ref=e273]: 󰁝
+            - cell "IRRD Number" [ref=e274]:
+              - generic [ref=e275]:
+                - generic [ref=e276]: IRRD Number
+                - generic [ref=e277]: 󰁝
+            - cell "IRD Number" [ref=e278]:
+              - generic [ref=e279]:
+                - generic [ref=e280]: IRD Number
+                - generic [ref=e281]: 󰁝
+            - cell "Serial Number" [ref=e282]:
+              - generic [ref=e283]:
+                - generic [ref=e284]: Serial Number
+                - generic [ref=e285]: 󰁝
+        - rowgroup [ref=e286]:
+          - row "T-O2507Q 490021038 Asus Vivoboo... IT -> LIFEST... A 7,000 no 0/0/0/139 r694_002 IRRDT3120251... IRDT20251006... -" [ref=e287]:
+            - cell [ref=e288]:
+              - generic [ref=e291]:
+                - generic [ref=e292]: 󰄲
+                - checkbox [checked] [ref=e293] [cursor=pointer]
+            - cell "T-O2507Q" [ref=e294]:
+              - generic [ref=e296]: T-O2507Q
+            - cell "490021038" [ref=e297]:
+              - generic [ref=e299]: "490021038"
+            - cell "Asus Vivoboo..." [ref=e300]:
+              - generic [ref=e302] [cursor=pointer]: Asus Vivoboo...
+            - cell "IT -> LIFEST..." [ref=e303]:
+              - generic [ref=e305] [cursor=pointer]: IT -> LIFEST...
+            - cell "A" [ref=e306]:
+              - generic [ref=e308]: A
+            - cell "7,000" [ref=e309]:
+              - generic [ref=e311]: 7,000
+            - cell "no" [ref=e312]:
+              - generic [ref=e314]: "no"
+            - cell "0/0/0/139" [ref=e315]:
+              - generic [ref=e317]: 0/0/0/139
+            - cell "r694_002" [ref=e318]:
+              - generic [ref=e320]: r694_002
+            - cell "IRRDT3120251..." [ref=e321]:
+              - generic [ref=e323] [cursor=pointer]: IRRDT3120251...
+            - cell "IRDT20251006..." [ref=e324]:
+              - generic [ref=e326] [cursor=pointer]: IRDT20251006...
+            - cell "-" [ref=e327]:
+              - generic [ref=e328]: "-"
+          - row "a-UJfzQW 493665938 Dell insp350... IT -> LAPTOP... DOA 70,000 no 0/104/104/22... PI_001 10074345 10074345 0910118842" [ref=e329]:
+            - cell [ref=e330]:
+              - generic [ref=e333]:
+                - generic [ref=e334]: 󰄱
+                - checkbox [ref=e335] [cursor=pointer]
+            - cell "a-UJfzQW" [ref=e336]:
+              - generic [ref=e338]: a-UJfzQW
+            - cell "493665938" [ref=e339]:
+              - generic [ref=e341]: "493665938"
+            - cell "Dell insp350..." [ref=e342]:
+              - generic [ref=e344] [cursor=pointer]: Dell insp350...
+            - cell "IT -> LAPTOP..." [ref=e345]:
+              - generic [ref=e347] [cursor=pointer]: IT -> LAPTOP...
+            - cell "DOA" [ref=e348]:
+              - generic [ref=e350]: DOA
+            - cell "70,000" [ref=e351]:
+              - generic [ref=e353]: 70,000
+            - cell "no" [ref=e354]:
+              - generic [ref=e356]: "no"
+            - cell "0/104/104/22..." [ref=e357]:
+              - generic [ref=e359] [cursor=pointer]: 0/104/104/22...
+            - cell "PI_001" [ref=e360]:
+              - generic [ref=e362]: PI_001
+            - cell "10074345" [ref=e363]:
+              - generic [ref=e365]: "10074345"
+            - cell "10074345" [ref=e366]:
+              - generic [ref=e368]: "10074345"
+            - cell "0910118842" [ref=e369]:
+              - generic [ref=e371]: "0910118842"
+          - row "a-nkakyz 493665938 Dell insp350... IT -> LAPTOP... DOA 70,000 no 0/104/104/22... open1 10019956 10019956 0936240176" [ref=e372]:
+            - cell [ref=e373]:
+              - generic [ref=e376]:
+                - generic [ref=e377]: 󰄱
+                - checkbox [ref=e378] [cursor=pointer]
+            - cell "a-nkakyz" [ref=e379]:
+              - generic [ref=e381]: a-nkakyz
+            - cell "493665938" [ref=e382]:
+              - generic [ref=e384]: "493665938"
+            - cell "Dell insp350..." [ref=e385]:
+              - generic [ref=e387] [cursor=pointer]: Dell insp350...
+            - cell "IT -> LAPTOP..." [ref=e388]:
+              - generic [ref=e390] [cursor=pointer]: IT -> LAPTOP...
+            - cell "DOA" [ref=e391]:
+              - generic [ref=e393]: DOA
+            - cell "70,000" [ref=e394]:
+              - generic [ref=e396]: 70,000
+            - cell "no" [ref=e397]:
+              - generic [ref=e399]: "no"
+            - cell "0/104/104/22..." [ref=e400]:
+              - generic [ref=e402] [cursor=pointer]: 0/104/104/22...
+            - cell "open1" [ref=e403]:
+              - generic [ref=e405]: open1
+            - cell "10019956" [ref=e406]:
+              - generic [ref=e408]: "10019956"
+            - cell "10019956" [ref=e409]:
+              - generic [ref=e411]: "10019956"
+            - cell "0936240176" [ref=e412]:
+              - generic [ref=e414]: "0936240176"
+          - row "a-RqGBRg 493665938 Dell insp350... IT -> LAPTOP... DOA 70,000 no 0/104/104/22... PI_001 1003526 1003526 0927591640" [ref=e415]:
+            - cell [ref=e416]:
+              - generic [ref=e419]:
+                - generic [ref=e420]: 󰄱
+                - checkbox [ref=e421] [cursor=pointer]
+            - cell "a-RqGBRg" [ref=e422]:
+              - generic [ref=e424]: a-RqGBRg
+            - cell "493665938" [ref=e425]:
+              - generic [ref=e427]: "493665938"
+            - cell "Dell insp350..." [ref=e428]:
+              - generic [ref=e430] [cursor=pointer]: Dell insp350...
+            - cell "IT -> LAPTOP..." [ref=e431]:
+              - generic [ref=e433] [cursor=pointer]: IT -> LAPTOP...
+            - cell "DOA" [ref=e434]:
+              - generic [ref=e436]: DOA
+            - cell "70,000" [ref=e437]:
+              - generic [ref=e439]: 70,000
+            - cell "no" [ref=e440]:
+              - generic [ref=e442]: "no"
+            - cell "0/104/104/22..." [ref=e443]:
+              - generic [ref=e445] [cursor=pointer]: 0/104/104/22...
+            - cell "PI_001" [ref=e446]:
+              - generic [ref=e448]: PI_001
+            - cell "1003526" [ref=e449]:
+              - generic [ref=e451]: "1003526"
+            - cell "1003526" [ref=e452]:
+              - generic [ref=e454]: "1003526"
+            - cell "0927591640" [ref=e455]:
+              - generic [ref=e457]: "0927591640"
+          - row "t-brandfilea... 493666439 Detel Featur... TELECOM -> W... DOA 7,000 no 3/49/49/54 007 18IRRD251 18IRRD251 NSH782JA185" [ref=e458]:
+            - cell [ref=e459]:
+              - generic [ref=e462]:
+                - generic [ref=e463]: 󰄱
+                - checkbox [ref=e464] [cursor=pointer]
+            - cell "t-brandfilea..." [ref=e465]:
+              - generic [ref=e467] [cursor=pointer]: t-brandfilea...
+            - cell "493666439" [ref=e468]:
+              - generic [ref=e470]: "493666439"
+            - cell "Detel Featur..." [ref=e471]:
+              - generic [ref=e473] [cursor=pointer]: Detel Featur...
+            - cell "TELECOM -> W..." [ref=e474]:
+              - generic [ref=e476] [cursor=pointer]: TELECOM -> W...
+            - cell "DOA" [ref=e477]:
+              - generic [ref=e479]: DOA
+            - cell "7,000" [ref=e480]:
+              - generic [ref=e482]: 7,000
+            - cell "no" [ref=e483]:
+              - generic [ref=e485]: "no"
+            - cell "3/49/49/54" [ref=e486]:
+              - generic [ref=e488]: 3/49/49/54
+            - cell "007" [ref=e489]:
+              - generic [ref=e491]: "007"
+            - cell "18IRRD251" [ref=e492]:
+              - generic [ref=e494]: 18IRRD251
+            - cell "18IRRD251" [ref=e495]:
+              - generic [ref=e497]: 18IRRD251
+            - cell "NSH782JA185" [ref=e498]:
+              - generic [ref=e500]: NSH782JA185
+          - row "t-appbrand19... 493072564 Samsung QM50... ENT -> HIGH ... B 7,000 no 3/48/48/54 007 IRRD192501 IRRD192501 BCSK25019086" [ref=e501]:
+            - cell [ref=e502]:
+              - generic [ref=e505]:
+                - generic [ref=e506]: 󰄱
+                - checkbox [ref=e507] [cursor=pointer]
+            - cell "t-appbrand19..." [ref=e508]:
+              - generic [ref=e510] [cursor=pointer]: t-appbrand19...
+            - cell "493072564" [ref=e511]:
+              - generic [ref=e513]: "493072564"
+            - cell "Samsung QM50..." [ref=e514]:
+              - generic [ref=e516] [cursor=pointer]: Samsung QM50...
+            - cell "ENT -> HIGH ..." [ref=e517]:
+              - generic [ref=e519] [cursor=pointer]: ENT -> HIGH ...
+            - cell "B" [ref=e520]:
+              - generic [ref=e522]: B
+            - cell "7,000" [ref=e523]:
+              - generic [ref=e525]: 7,000
+            - cell "no" [ref=e526]:
+              - generic [ref=e528]: "no"
+            - cell "3/48/48/54" [ref=e529]:
+              - generic [ref=e531]: 3/48/48/54
+            - cell "007" [ref=e532]:
+              - generic [ref=e534]: "007"
+            - cell "IRRD192501" [ref=e535]:
+              - generic [ref=e537]: IRRD192501
+            - cell "IRRD192501" [ref=e538]:
+              - generic [ref=e540]: IRRD192501
+            - cell "BCSK25019086" [ref=e541]:
+              - generic [ref=e543]: BCSK25019086
+          - row "t-appbrand19... 493072564 Samsung QM50... ENT -> HIGH ... B 7,000 no 3/48/48/54 007 IRRD192501 IRRD192501 BCSK25019082" [ref=e544]:
+            - cell [ref=e545]:
+              - generic [ref=e548]:
+                - generic [ref=e549]: 󰄱
+                - checkbox [ref=e550] [cursor=pointer]
+            - cell "t-appbrand19..." [ref=e551]:
+              - generic [ref=e553] [cursor=pointer]: t-appbrand19...
+            - cell "493072564" [ref=e554]:
+              - generic [ref=e556]: "493072564"
+            - cell "Samsung QM50..." [ref=e557]:
+              - generic [ref=e559] [cursor=pointer]: Samsung QM50...
+            - cell "ENT -> HIGH ..." [ref=e560]:
+              - generic [ref=e562] [cursor=pointer]: ENT -> HIGH ...
+            - cell "B" [ref=e563]:
+              - generic [ref=e565]: B
+            - cell "7,000" [ref=e566]:
+              - generic [ref=e568]: 7,000
+            - cell "no" [ref=e569]:
+              - generic [ref=e571]: "no"
+            - cell "3/48/48/54" [ref=e572]:
+              - generic [ref=e574]: 3/48/48/54
+            - cell "007" [ref=e575]:
+              - generic [ref=e577]: "007"
+            - cell "IRRD192501" [ref=e578]:
+              - generic [ref=e580]: IRRD192501
+            - cell "IRRD192501" [ref=e581]:
+              - generic [ref=e583]: IRRD192501
+            - cell "BCSK25019082" [ref=e584]:
+              - generic [ref=e586]: BCSK25019082
+          - row "t-brandregg2... 493072564 Samsung QM50... ENT -> HIGH ... B 7,000 no 3/47/47/54 007 IRRD20125201 IRRD20125201 NSHT25019026" [ref=e587]:
+            - cell [ref=e588]:
+              - generic [ref=e591]:
+                - generic [ref=e592]: 󰄱
+                - checkbox [ref=e593] [cursor=pointer]
+            - cell "t-brandregg2..." [ref=e594]:
+              - generic [ref=e596] [cursor=pointer]: t-brandregg2...
+            - cell "493072564" [ref=e597]:
+              - generic [ref=e599]: "493072564"
+            - cell "Samsung QM50..." [ref=e600]:
+              - generic [ref=e602] [cursor=pointer]: Samsung QM50...
+            - cell "ENT -> HIGH ..." [ref=e603]:
+              - generic [ref=e605] [cursor=pointer]: ENT -> HIGH ...
+            - cell "B" [ref=e606]:
+              - generic [ref=e608]: B
+            - cell "7,000" [ref=e609]:
+              - generic [ref=e611]: 7,000
+            - cell "no" [ref=e612]:
+              - generic [ref=e614]: "no"
+            - cell "3/47/47/54" [ref=e615]:
+              - generic [ref=e617]: 3/47/47/54
+            - cell "007" [ref=e618]:
+              - generic [ref=e620]: "007"
+            - cell "IRRD20125201" [ref=e621]:
+              - generic [ref=e623]: IRRD20125201
+            - cell "IRRD20125201" [ref=e624]:
+              - generic [ref=e626]: IRRD20125201
+            - cell "NSHT25019026" [ref=e627]:
+              - generic [ref=e629]: NSHT25019026
+          - row "t-brandregg2... 493072564 Samsung QM50... ENT -> HIGH ... B 7,000 no 7/47/47/54 007 IRRD20125201 IRRD20125201 NSHT25019028" [ref=e630]:
+            - cell [ref=e631]:
+              - generic [ref=e634]:
+                - generic [ref=e635]: 󰄱
+                - checkbox [ref=e636] [cursor=pointer]
+            - cell "t-brandregg2..." [ref=e637]:
+              - generic [ref=e639] [cursor=pointer]: t-brandregg2...
+            - cell "493072564" [ref=e640]:
+              - generic [ref=e642]: "493072564"
+            - cell "Samsung QM50..." [ref=e643]:
+              - generic [ref=e645] [cursor=pointer]: Samsung QM50...
+            - cell "ENT -> HIGH ..." [ref=e646]:
+              - generic [ref=e648] [cursor=pointer]: ENT -> HIGH ...
+            - cell "B" [ref=e649]:
+              - generic [ref=e651]: B
+            - cell "7,000" [ref=e652]:
+              - generic [ref=e654]: 7,000
+            - cell "no" [ref=e655]:
+              - generic [ref=e657]: "no"
+            - cell "7/47/47/54" [ref=e658]:
+              - generic [ref=e660]: 7/47/47/54
+            - cell "007" [ref=e661]:
+              - generic [ref=e663]: "007"
+            - cell "IRRD20125201" [ref=e664]:
+              - generic [ref=e666]: IRRD20125201
+            - cell "IRRD20125201" [ref=e667]:
+              - generic [ref=e669]: IRRD20125201
+            - cell "NSHT25019028" [ref=e670]:
+              - generic [ref=e672]: NSHT25019028
+          - row "Tag-2WF0HSJQ 493665897 Detel Featur... IT -> LAPTOP... DOA 7,000 no 10/46/46/139 007 SDdkLkwsw6Ad... SDdkLkwsw6Ad... 8XQvfkPxeJPw..." [ref=e673]:
+            - cell [ref=e674]:
+              - generic [ref=e677]:
+                - generic [ref=e678]: 󰄱
+                - checkbox [ref=e679] [cursor=pointer]
+            - cell "Tag-2WF0HSJQ" [ref=e680]:
+              - generic [ref=e682]: Tag-2WF0HSJQ
+            - cell "493665897" [ref=e683]:
+              - generic [ref=e685]: "493665897"
+            - cell "Detel Featur..." [ref=e686]:
+              - generic [ref=e688] [cursor=pointer]: Detel Featur...
+            - cell "IT -> LAPTOP..." [ref=e689]:
+              - generic [ref=e691] [cursor=pointer]: IT -> LAPTOP...
+            - cell "DOA" [ref=e692]:
+              - generic [ref=e694]: DOA
+            - cell "7,000" [ref=e695]:
+              - generic [ref=e697]: 7,000
+            - cell "no" [ref=e698]:
+              - generic [ref=e700]: "no"
+            - cell "10/46/46/139" [ref=e701]:
+              - generic [ref=e703]: 10/46/46/139
+            - cell "007" [ref=e704]:
+              - generic [ref=e706]: "007"
+            - cell "SDdkLkwsw6Ad..." [ref=e707]:
+              - generic [ref=e709] [cursor=pointer]: SDdkLkwsw6Ad...
+            - cell "SDdkLkwsw6Ad..." [ref=e710]:
+              - generic [ref=e712] [cursor=pointer]: SDdkLkwsw6Ad...
+            - cell "8XQvfkPxeJPw..." [ref=e713]:
+              - generic [ref=e715] [cursor=pointer]: 8XQvfkPxeJPw...
+          - row "ghghj 493072564 Samsung QM50... ENT -> HIGH ... A 7,000 no 10/46/49/139 007 tueuZf5mphoO... tueuZf5mphoO... je6KlZyczuTd..." [ref=e716]:
+            - cell [ref=e717]:
+              - generic [ref=e720]:
+                - generic [ref=e721]: 󰄱
+                - checkbox [ref=e722] [cursor=pointer]
+            - cell "ghghj" [ref=e723]:
+              - generic [ref=e725]: ghghj
+            - cell "493072564" [ref=e726]:
+              - generic [ref=e728]: "493072564"
+            - cell "Samsung QM50..." [ref=e729]:
+              - generic [ref=e731] [cursor=pointer]: Samsung QM50...
+            - cell "ENT -> HIGH ..." [ref=e732]:
+              - generic [ref=e734] [cursor=pointer]: ENT -> HIGH ...
+            - cell "A" [ref=e735]:
+              - generic [ref=e737]: A
+            - cell "7,000" [ref=e738]:
+              - generic [ref=e740]: 7,000
+            - cell "no" [ref=e741]:
+              - generic [ref=e743]: "no"
+            - cell "10/46/49/139" [ref=e744]:
+              - generic [ref=e746]: 10/46/49/139
+            - cell "007" [ref=e747]:
+              - generic [ref=e749]: "007"
+            - cell "tueuZf5mphoO..." [ref=e750]:
+              - generic [ref=e752] [cursor=pointer]: tueuZf5mphoO...
+            - cell "tueuZf5mphoO..." [ref=e753]:
+              - generic [ref=e755] [cursor=pointer]: tueuZf5mphoO...
+            - cell "je6KlZyczuTd..." [ref=e756]:
+              - generic [ref=e758] [cursor=pointer]: je6KlZyczuTd...
+          - row "Tag-KKSK9I1M 493665897 Detel Featur... IT -> LAPTOP... DOA 7,000 no 10/46/46/139 007 SDdkLkwsw6Ad... SDdkLkwsw6Ad... BFgGSLyKaPD7..." [ref=e759]:
+            - cell [ref=e760]:
+              - generic [ref=e763]:
+                - generic [ref=e764]: 󰄱
+                - checkbox [ref=e765] [cursor=pointer]
+            - cell "Tag-KKSK9I1M" [ref=e766]:
+              - generic [ref=e768]: Tag-KKSK9I1M
+            - cell "493665897" [ref=e769]:
+              - generic [ref=e771]: "493665897"
+            - cell "Detel Featur..." [ref=e772]:
+              - generic [ref=e774] [cursor=pointer]: Detel Featur...
+            - cell "IT -> LAPTOP..." [ref=e775]:
+              - generic [ref=e777] [cursor=pointer]: IT -> LAPTOP...
+            - cell "DOA" [ref=e778]:
+              - generic [ref=e780]: DOA
+            - cell "7,000" [ref=e781]:
+              - generic [ref=e783]: 7,000
+            - cell "no" [ref=e784]:
+              - generic [ref=e786]: "no"
+            - cell "10/46/46/139" [ref=e787]:
+              - generic [ref=e789]: 10/46/46/139
+            - cell "007" [ref=e790]:
+              - generic [ref=e792]: "007"
+            - cell "SDdkLkwsw6Ad..." [ref=e793]:
+              - generic [ref=e795] [cursor=pointer]: SDdkLkwsw6Ad...
+            - cell "SDdkLkwsw6Ad..." [ref=e796]:
+              - generic [ref=e798] [cursor=pointer]: SDdkLkwsw6Ad...
+            - cell "BFgGSLyKaPD7..." [ref=e799]:
+              - generic [ref=e801] [cursor=pointer]: BFgGSLyKaPD7...
+          - row "T-4G4OCI 493665939 Dell insp351... IT -> LAPTOP... A 7,000 no 10/13/13/139 s_0004 Inward-2 Inward-2 SN-LP-AZ9F3K..." [ref=e802]:
+            - cell [ref=e803]:
+              - generic [ref=e806]:
+                - generic [ref=e807]: 󰄱
+                - checkbox [ref=e808] [cursor=pointer]
+            - cell "T-4G4OCI" [ref=e809]:
+              - generic [ref=e811]: T-4G4OCI
+            - cell "493665939" [ref=e812]:
+              - generic [ref=e814]: "493665939"
+            - cell "Dell insp351..." [ref=e815]:
+              - generic [ref=e817] [cursor=pointer]: Dell insp351...
+            - cell "IT -> LAPTOP..." [ref=e818]:
+              - generic [ref=e820] [cursor=pointer]: IT -> LAPTOP...
+            - cell "A" [ref=e821]:
+              - generic [ref=e823]: A
+            - cell "7,000" [ref=e824]:
+              - generic [ref=e826]: 7,000
+            - cell "no" [ref=e827]:
+              - generic [ref=e829]: "no"
+            - cell "10/13/13/139" [ref=e830]:
+              - generic [ref=e832]: 10/13/13/139
+            - cell "s_0004" [ref=e833]:
+              - generic [ref=e835]: s_0004
+            - cell "Inward-2" [ref=e836]:
+              - generic [ref=e838]: Inward-2
+            - cell "Inward-2" [ref=e839]:
+              - generic [ref=e841]: Inward-2
+            - cell "SN-LP-AZ9F3K..." [ref=e842]:
+              - generic [ref=e844] [cursor=pointer]: SN-LP-AZ9F3K...
+          - row "t-brand24120... 493665897 Asus Vivoboo... IT -> LAPTOP... DOA 30,000 no 10/119/328/3... R696-OB-01 765478342 765478342 01K60JS01124..." [ref=e845]:
+            - cell [ref=e846]:
+              - generic [ref=e849]:
+                - generic [ref=e850]: 󰄱
+                - checkbox [ref=e851] [cursor=pointer]
+            - cell "t-brand24120..." [ref=e852]:
+              - generic [ref=e854] [cursor=pointer]: t-brand24120...
+            - cell "493665897" [ref=e855]:
+              - generic [ref=e857]: "493665897"
+            - cell "Asus Vivoboo..." [ref=e858]:
+              - generic [ref=e860] [cursor=pointer]: Asus Vivoboo...
+            - cell "IT -> LAPTOP..." [ref=e861]:
+              - generic [ref=e863] [cursor=pointer]: IT -> LAPTOP...
+            - cell "DOA" [ref=e864]:
+              - generic [ref=e866]: DOA
+            - cell "30,000" [ref=e867]:
+              - generic [ref=e869]: 30,000
+            - cell "no" [ref=e870]:
+              - generic [ref=e872]: "no"
+            - cell "10/119/328/3..." [ref=e873]:
+              - generic [ref=e875] [cursor=pointer]: 10/119/328/3...
+            - cell "R696-OB-01" [ref=e876]:
+              - generic [ref=e878]: R696-OB-01
+            - cell "765478342" [ref=e879]:
+              - generic [ref=e881]: "765478342"
+            - cell "765478342" [ref=e882]:
+              - generic [ref=e884]: "765478342"
+            - cell "01K60JS01124..." [ref=e885]:
+              - generic [ref=e887] [cursor=pointer]: 01K60JS01124...
+          - row "t-Ff7JSS 493665938 Dell insp350... IT -> LAPTOP... DOA 70,000 yes 44/125/125/2... 007 10085104 10085104 0987720309" [ref=e888]:
+            - cell [ref=e889]:
+              - generic [ref=e892]:
+                - generic [ref=e893]: 󰄱
+                - checkbox [ref=e894] [cursor=pointer]
+            - cell "t-Ff7JSS" [ref=e895]:
+              - generic [ref=e897]: t-Ff7JSS
+            - cell "493665938" [ref=e898]:
+              - generic [ref=e900]: "493665938"
+            - cell "Dell insp350..." [ref=e901]:
+              - generic [ref=e903] [cursor=pointer]: Dell insp350...
+            - cell "IT -> LAPTOP..." [ref=e904]:
+              - generic [ref=e906] [cursor=pointer]: IT -> LAPTOP...
+            - cell "DOA" [ref=e907]:
+              - generic [ref=e909]: DOA
+            - cell "70,000" [ref=e910]:
+              - generic [ref=e912]: 70,000
+            - cell "yes" [ref=e913]:
+              - generic [ref=e915]: "yes"
+            - cell "44/125/125/2..." [ref=e916]:
+              - generic [ref=e918] [cursor=pointer]: 44/125/125/2...
+            - cell "007" [ref=e919]:
+              - generic [ref=e921]: "007"
+            - cell "10085104" [ref=e922]:
+              - generic [ref=e924]: "10085104"
+            - cell "10085104" [ref=e925]:
+              - generic [ref=e927]: "10085104"
+            - cell "0987720309" [ref=e928]:
+              - generic [ref=e930]: "0987720309"
+          - row "t-conditest9... 493665940 Dell 3511(i3... IT -> LAPTOP... A 90,000 no 102/102/102/... r694_002 IRRD-DG8913 IRD-DG9032 SRN997460804..." [ref=e931]:
+            - cell [ref=e932]:
+              - generic [ref=e935]:
+                - generic [ref=e936]: 󰄱
+                - checkbox [ref=e937] [cursor=pointer]
+            - cell "t-conditest9..." [ref=e938]:
+              - generic [ref=e940] [cursor=pointer]: t-conditest9...
+            - cell "493665940" [ref=e941]:
+              - generic [ref=e943]: "493665940"
+            - cell "Dell 3511(i3..." [ref=e944]:
+              - generic [ref=e946] [cursor=pointer]: Dell 3511(i3...
+            - cell "IT -> LAPTOP..." [ref=e947]:
+              - generic [ref=e949] [cursor=pointer]: IT -> LAPTOP...
+            - cell "A" [ref=e950]:
+              - generic [ref=e952]: A
+            - cell "90,000" [ref=e953]:
+              - generic [ref=e955]: 90,000
+            - cell "no" [ref=e956]:
+              - generic [ref=e958]: "no"
+            - cell "102/102/102/..." [ref=e959]:
+              - generic [ref=e961] [cursor=pointer]: 102/102/102/...
+            - cell "r694_002" [ref=e962]:
+              - generic [ref=e964]: r694_002
+            - cell "IRRD-DG8913" [ref=e965]:
+              - generic [ref=e967]: IRRD-DG8913
+            - cell "IRD-DG9032" [ref=e968]:
+              - generic [ref=e970]: IRD-DG9032
+            - cell "SRN997460804..." [ref=e971]:
+              - generic [ref=e973] [cursor=pointer]: SRN997460804...
+          - row "t-jzpxrK 493665938 Dell insp350... IT -> LAPTOP... DOA 70,000 yes 124/125/125/... s_0004 10039890 10039890 0954858053" [ref=e974]:
+            - cell [ref=e975]:
+              - generic [ref=e978]:
+                - generic [ref=e979]: 󰄱
+                - checkbox [ref=e980] [cursor=pointer]
+            - cell "t-jzpxrK" [ref=e981]:
+              - generic [ref=e983]: t-jzpxrK
+            - cell "493665938" [ref=e984]:
+              - generic [ref=e986]: "493665938"
+            - cell "Dell insp350..." [ref=e987]:
+              - generic [ref=e989] [cursor=pointer]: Dell insp350...
+            - cell "IT -> LAPTOP..." [ref=e990]:
+              - generic [ref=e992] [cursor=pointer]: IT -> LAPTOP...
+            - cell "DOA" [ref=e993]:
+              - generic [ref=e995]: DOA
+            - cell "70,000" [ref=e996]:
+              - generic [ref=e998]: 70,000
+            - cell "yes" [ref=e999]:
+              - generic [ref=e1001]: "yes"
+            - cell "124/125/125/..." [ref=e1002]:
+              - generic [ref=e1004] [cursor=pointer]: 124/125/125/...
+            - cell "s_0004" [ref=e1005]:
+              - generic [ref=e1007]: s_0004
+            - cell "10039890" [ref=e1008]:
+              - generic [ref=e1010]: "10039890"
+            - cell "10039890" [ref=e1011]:
+              - generic [ref=e1013]: "10039890"
+            - cell "0954858053" [ref=e1014]:
+              - generic [ref=e1016]: "0954858053"
+          - row "si-a0bfdd 492166300 SAMSUNG 65 U... ENT -> HIGH ... C 33,000 no 307/329/0/39... rs-12345 30920241 30920241 60RD6R608993..." [ref=e1017]:
+            - cell [ref=e1018]:
+              - generic [ref=e1021]:
+                - generic [ref=e1022]: 󰄱
+                - checkbox [ref=e1023] [cursor=pointer]
+            - cell "si-a0bfdd" [ref=e1024]:
+              - generic [ref=e1026]: si-a0bfdd
+            - cell "492166300" [ref=e1027]:
+              - generic [ref=e1029]: "492166300"
+            - cell "SAMSUNG 65 U..." [ref=e1030]:
+              - generic [ref=e1032] [cursor=pointer]: SAMSUNG 65 U...
+            - cell "ENT -> HIGH ..." [ref=e1033]:
+              - generic [ref=e1035] [cursor=pointer]: ENT -> HIGH ...
+            - cell "C" [ref=e1036]:
+              - generic [ref=e1038]: C
+            - cell "33,000" [ref=e1039]:
+              - generic [ref=e1041]: 33,000
+            - cell "no" [ref=e1042]:
+              - generic [ref=e1044]: "no"
+            - cell "307/329/0/39..." [ref=e1045]:
+              - generic [ref=e1047] [cursor=pointer]: 307/329/0/39...
+            - cell "rs-12345" [ref=e1048]:
+              - generic [ref=e1050]: rs-12345
+            - cell "30920241" [ref=e1051]:
+              - generic [ref=e1053]: "30920241"
+            - cell "30920241" [ref=e1054]:
+              - generic [ref=e1056]: "30920241"
+            - cell "60RD6R608993..." [ref=e1057]:
+              - generic [ref=e1059] [cursor=pointer]: 60RD6R608993...
+          - row "asjflkajsflk... 491332556 Zoook BT spe... TELECOM ENHA... DOA 33,000 no 307/322/322/... ssr_001 131120248 131120248 -" [ref=e1060]:
+            - cell [ref=e1061]:
+              - generic [ref=e1064]:
+                - generic [ref=e1065]: 󰄱
+                - checkbox [ref=e1066] [cursor=pointer]
+            - cell "asjflkajsflk..." [ref=e1067]:
+              - generic [ref=e1069] [cursor=pointer]: asjflkajsflk...
+            - cell "491332556" [ref=e1070]:
+              - generic [ref=e1072]: "491332556"
+            - cell "Zoook BT spe..." [ref=e1073]:
+              - generic [ref=e1075] [cursor=pointer]: Zoook BT spe...
+            - cell "TELECOM ENHA..." [ref=e1076]:
+              - generic [ref=e1078] [cursor=pointer]: TELECOM ENHA...
+            - cell "DOA" [ref=e1079]:
+              - generic [ref=e1081]: DOA
+            - cell "33,000" [ref=e1082]:
+              - generic [ref=e1084]: 33,000
+            - cell "no" [ref=e1085]:
+              - generic [ref=e1087]: "no"
+            - cell "307/322/322/..." [ref=e1088]:
+              - generic [ref=e1090] [cursor=pointer]: 307/322/322/...
+            - cell "ssr_001" [ref=e1091]:
+              - generic [ref=e1093]: ssr_001
+            - cell "131120248" [ref=e1094]:
+              - generic [ref=e1096]: "131120248"
+            - cell "131120248" [ref=e1097]:
+              - generic [ref=e1099]: "131120248"
+            - cell "-" [ref=e1100]:
+              - generic [ref=e1101]: "-"
+          - row "e6e6446 491332556 Zoook BT spe... TELECOM ENHA... DOA 33,000 no 307/322/322/... ssr_001 131120248 131120248 -" [ref=e1102]:
+            - cell [ref=e1103]:
+              - generic [ref=e1106]:
+                - generic [ref=e1107]: 󰄱
+                - checkbox [ref=e1108] [cursor=pointer]
+            - cell "e6e6446" [ref=e1109]:
+              - generic [ref=e1111]: e6e6446
+            - cell "491332556" [ref=e1112]:
+              - generic [ref=e1114]: "491332556"
+            - cell "Zoook BT spe..." [ref=e1115]:
+              - generic [ref=e1117] [cursor=pointer]: Zoook BT spe...
+            - cell "TELECOM ENHA..." [ref=e1118]:
+              - generic [ref=e1120] [cursor=pointer]: TELECOM ENHA...
+            - cell "DOA" [ref=e1121]:
+              - generic [ref=e1123]: DOA
+            - cell "33,000" [ref=e1124]:
+              - generic [ref=e1126]: 33,000
+            - cell "no" [ref=e1127]:
+              - generic [ref=e1129]: "no"
+            - cell "307/322/322/..." [ref=e1130]:
+              - generic [ref=e1132] [cursor=pointer]: 307/322/322/...
+            - cell "ssr_001" [ref=e1133]:
+              - generic [ref=e1135]: ssr_001
+            - cell "131120248" [ref=e1136]:
+              - generic [ref=e1138]: "131120248"
+            - cell "131120248" [ref=e1139]:
+              - generic [ref=e1141]: "131120248"
+            - cell "-" [ref=e1142]:
+              - generic [ref=e1143]: "-"
+          - row "t-kVSB2N 493665943 Dell 3511(i5... IT -> LAPTOP... DOA 1,20,000 no 307/343/343/... new_pi_007 10033668 10033668 02DS4JY35862..." [ref=e1144]:
+            - cell [ref=e1145]:
+              - generic [ref=e1148]:
+                - generic [ref=e1149]: 󰄱
+                - checkbox [ref=e1150] [cursor=pointer]
+            - cell "t-kVSB2N" [ref=e1151]:
+              - generic [ref=e1153]: t-kVSB2N
+            - cell "493665943" [ref=e1154]:
+              - generic [ref=e1156]: "493665943"
+            - cell "Dell 3511(i5..." [ref=e1157]:
+              - generic [ref=e1159] [cursor=pointer]: Dell 3511(i5...
+            - cell "IT -> LAPTOP..." [ref=e1160]:
+              - generic [ref=e1162] [cursor=pointer]: IT -> LAPTOP...
+            - cell "DOA" [ref=e1163]:
+              - generic [ref=e1165]: DOA
+            - cell "1,20,000" [ref=e1166]:
+              - generic [ref=e1168]: 1,20,000
+            - cell "no" [ref=e1169]:
+              - generic [ref=e1171]: "no"
+            - cell "307/343/343/..." [ref=e1172]:
+              - generic [ref=e1174] [cursor=pointer]: 307/343/343/...
+            - cell "new_pi_007" [ref=e1175]:
+              - generic [ref=e1177]: new_pi_007
+            - cell "10033668" [ref=e1178]:
+              - generic [ref=e1180]: "10033668"
+            - cell "10033668" [ref=e1181]:
+              - generic [ref=e1183]: "10033668"
+            - cell "02DS4JY35862..." [ref=e1184]:
+              - generic [ref=e1186] [cursor=pointer]: 02DS4JY35862...
+          - row "t-XFZZXp 493665941 Dell 3511(i3... IT -> LAPTOP... DOA 1,00,000 no 307/343/343/... new_pi_007 10033668 10033668 02DS4JY55242..." [ref=e1187]:
+            - cell [ref=e1188]:
+              - generic [ref=e1191]:
+                - generic [ref=e1192]: 󰄱
+                - checkbox [ref=e1193] [cursor=pointer]
+            - cell "t-XFZZXp" [ref=e1194]:
+              - generic [ref=e1196]: t-XFZZXp
+            - cell "493665941" [ref=e1197]:
+              - generic [ref=e1199]: "493665941"
+            - cell "Dell 3511(i3..." [ref=e1200]:
+              - generic [ref=e1202] [cursor=pointer]: Dell 3511(i3...
+            - cell "IT -> LAPTOP..." [ref=e1203]:
+              - generic [ref=e1205] [cursor=pointer]: IT -> LAPTOP...
+            - cell "DOA" [ref=e1206]:
+              - generic [ref=e1208]: DOA
+            - cell "1,00,000" [ref=e1209]:
+              - generic [ref=e1211]: 1,00,000
+            - cell "no" [ref=e1212]:
+              - generic [ref=e1214]: "no"
+            - cell "307/343/343/..." [ref=e1215]:
+              - generic [ref=e1217] [cursor=pointer]: 307/343/343/...
+            - cell "new_pi_007" [ref=e1218]:
+              - generic [ref=e1220]: new_pi_007
+            - cell "10033668" [ref=e1221]:
+              - generic [ref=e1223]: "10033668"
+            - cell "10033668" [ref=e1224]:
+              - generic [ref=e1226]: "10033668"
+            - cell "02DS4JY55242..." [ref=e1227]:
+              - generic [ref=e1229] [cursor=pointer]: 02DS4JY55242...
+          - row "t-Op1QmT 493665938 Dell insp350... IT -> LAPTOP... DOA 70,000 no 307/343/343/... newsub13 10033668 10033668 02DS4JY22114..." [ref=e1230]:
+            - cell [ref=e1231]:
+              - generic [ref=e1234]:
+                - generic [ref=e1235]: 󰄱
+                - checkbox [ref=e1236] [cursor=pointer]
+            - cell "t-Op1QmT" [ref=e1237]:
+              - generic [ref=e1239]: t-Op1QmT
+            - cell "493665938" [ref=e1240]:
+              - generic [ref=e1242]: "493665938"
+            - cell "Dell insp350..." [ref=e1243]:
+              - generic [ref=e1245] [cursor=pointer]: Dell insp350...
+            - cell "IT -> LAPTOP..." [ref=e1246]:
+              - generic [ref=e1248] [cursor=pointer]: IT -> LAPTOP...
+            - cell "DOA" [ref=e1249]:
+              - generic [ref=e1251]: DOA
+            - cell "70,000" [ref=e1252]:
+              - generic [ref=e1254]: 70,000
+            - cell "no" [ref=e1255]:
+              - generic [ref=e1257]: "no"
+            - cell "307/343/343/..." [ref=e1258]:
+              - generic [ref=e1260] [cursor=pointer]: 307/343/343/...
+            - cell "newsub13" [ref=e1261]:
+              - generic [ref=e1263]: newsub13
+            - cell "10033668" [ref=e1264]:
+              - generic [ref=e1266]: "10033668"
+            - cell "10033668" [ref=e1267]:
+              - generic [ref=e1269]: "10033668"
+            - cell "02DS4JY22114..." [ref=e1270]:
+              - generic [ref=e1272] [cursor=pointer]: 02DS4JY22114...
+          - row "t-PUq7ne 493665935 HP 15s- ey20... IT -> LAPTOP... DOA 50,000 no 307/343/343/... new_pi_007 10045773 10045773 02DS4JY26303..." [ref=e1273]:
+            - cell [ref=e1274]:
+              - generic [ref=e1277]:
+                - generic [ref=e1278]: 󰄱
+                - checkbox [ref=e1279] [cursor=pointer]
+            - cell "t-PUq7ne" [ref=e1280]:
+              - generic [ref=e1282]: t-PUq7ne
+            - cell "493665935" [ref=e1283]:
+              - generic [ref=e1285]: "493665935"
+            - cell "HP 15s- ey20..." [ref=e1286]:
+              - generic [ref=e1288] [cursor=pointer]: HP 15s- ey20...
+            - cell "IT -> LAPTOP..." [ref=e1289]:
+              - generic [ref=e1291] [cursor=pointer]: IT -> LAPTOP...
+            - cell "DOA" [ref=e1292]:
+              - generic [ref=e1294]: DOA
+            - cell "50,000" [ref=e1295]:
+              - generic [ref=e1297]: 50,000
+            - cell "no" [ref=e1298]:
+              - generic [ref=e1300]: "no"
+            - cell "307/343/343/..." [ref=e1301]:
+              - generic [ref=e1303] [cursor=pointer]: 307/343/343/...
+            - cell "new_pi_007" [ref=e1304]:
+              - generic [ref=e1306]: new_pi_007
+            - cell "10045773" [ref=e1307]:
+              - generic [ref=e1309]: "10045773"
+            - cell "10045773" [ref=e1310]:
+              - generic [ref=e1312]: "10045773"
+            - cell "02DS4JY26303..." [ref=e1313]:
+              - generic [ref=e1315] [cursor=pointer]: 02DS4JY26303...
+          - row "t-UuhcmJ 493665912 Len i7/16/1t... IT -> DESKTO... DOA 40,000 no 307/346/346/... new_pi_007 10065659 10065659 02DS4JY70274..." [ref=e1316]:
+            - cell [ref=e1317]:
+              - generic [ref=e1320]:
+                - generic [ref=e1321]: 󰄱
+                - checkbox [ref=e1322] [cursor=pointer]
+            - cell "t-UuhcmJ" [ref=e1323]:
+              - generic [ref=e1325]: t-UuhcmJ
+            - cell "493665912" [ref=e1326]:
+              - generic [ref=e1328]: "493665912"
+            - cell "Len i7/16/1t..." [ref=e1329]:
+              - generic [ref=e1331] [cursor=pointer]: Len i7/16/1t...
+            - cell "IT -> DESKTO..." [ref=e1332]:
+              - generic [ref=e1334] [cursor=pointer]: IT -> DESKTO...
+            - cell "DOA" [ref=e1335]:
+              - generic [ref=e1337]: DOA
+            - cell "40,000" [ref=e1338]:
+              - generic [ref=e1340]: 40,000
+            - cell "no" [ref=e1341]:
+              - generic [ref=e1343]: "no"
+            - cell "307/346/346/..." [ref=e1344]:
+              - generic [ref=e1346] [cursor=pointer]: 307/346/346/...
+            - cell "new_pi_007" [ref=e1347]:
+              - generic [ref=e1349]: new_pi_007
+            - cell "10065659" [ref=e1350]:
+              - generic [ref=e1352]: "10065659"
+            - cell "10065659" [ref=e1353]:
+              - generic [ref=e1355]: "10065659"
+            - cell "02DS4JY70274..." [ref=e1356]:
+              - generic [ref=e1358] [cursor=pointer]: 02DS4JY70274...
+          - row "t-Vqzi7D 493665897 Asus Vivoboo... IT -> LAPTOP... DOA 30,000 no 307/346/346/... che_st02 10065659 10065659 02DS4JY92782..." [ref=e1359]:
+            - cell [ref=e1360]:
+              - generic [ref=e1363]:
+                - generic [ref=e1364]: 󰄱
+                - checkbox [ref=e1365] [cursor=pointer]
+            - cell "t-Vqzi7D" [ref=e1366]:
+              - generic [ref=e1368]: t-Vqzi7D
+            - cell "493665897" [ref=e1369]:
+              - generic [ref=e1371]: "493665897"
+            - cell "Asus Vivoboo..." [ref=e1372]:
+              - generic [ref=e1374] [cursor=pointer]: Asus Vivoboo...
+            - cell "IT -> LAPTOP..." [ref=e1375]:
+              - generic [ref=e1377] [cursor=pointer]: IT -> LAPTOP...
+            - cell "DOA" [ref=e1378]:
+              - generic [ref=e1380]: DOA
+            - cell "30,000" [ref=e1381]:
+              - generic [ref=e1383]: 30,000
+            - cell "no" [ref=e1384]:
+              - generic [ref=e1386]: "no"
+            - cell "307/346/346/..." [ref=e1387]:
+              - generic [ref=e1389] [cursor=pointer]: 307/346/346/...
+            - cell "che_st02" [ref=e1390]:
+              - generic [ref=e1392]: che_st02
+            - cell "10065659" [ref=e1393]:
+              - generic [ref=e1395]: "10065659"
+            - cell "10065659" [ref=e1396]:
+              - generic [ref=e1398]: "10065659"
+            - cell "02DS4JY92782..." [ref=e1399]:
+              - generic [ref=e1401] [cursor=pointer]: 02DS4JY92782...
+          - row "t-WWxkCb 493665912 Len i7/16/1t... IT -> DESKTO... DOA 40,000 no 307/343/343/... new_sub11 10033668 10033668 02DS4JY96198..." [ref=e1402]:
+            - cell [ref=e1403]:
+              - generic [ref=e1406]:
+                - generic [ref=e1407]: 󰄱
+                - checkbox [ref=e1408] [cursor=pointer]
+            - cell "t-WWxkCb" [ref=e1409]:
+              - generic [ref=e1411]: t-WWxkCb
+            - cell "493665912" [ref=e1412]:
+              - generic [ref=e1414]: "493665912"
+            - cell "Len i7/16/1t..." [ref=e1415]:
+              - generic [ref=e1417] [cursor=pointer]: Len i7/16/1t...
+            - cell "IT -> DESKTO..." [ref=e1418]:
+              - generic [ref=e1420] [cursor=pointer]: IT -> DESKTO...
+            - cell "DOA" [ref=e1421]:
+              - generic [ref=e1423]: DOA
+            - cell "40,000" [ref=e1424]:
+              - generic [ref=e1426]: 40,000
+            - cell "no" [ref=e1427]:
+              - generic [ref=e1429]: "no"
+            - cell "307/343/343/..." [ref=e1430]:
+              - generic [ref=e1432] [cursor=pointer]: 307/343/343/...
+            - cell "new_sub11" [ref=e1433]:
+              - generic [ref=e1435]: new_sub11
+            - cell "10033668" [ref=e1436]:
+              - generic [ref=e1438]: "10033668"
+            - cell "10033668" [ref=e1439]:
+              - generic [ref=e1441]: "10033668"
+            - cell "02DS4JY96198..." [ref=e1442]:
+              - generic [ref=e1444] [cursor=pointer]: 02DS4JY96198...
+          - row "ageing3 493072564 Samsung QM50... ENT -> HIGH ... B 31,000 no 307/347/347/... pi_new_005 120037140 129037140 2DS4JY402678..." [ref=e1445]:
+            - cell [ref=e1446]:
+              - generic [ref=e1449]:
+                - generic [ref=e1450]: 󰄱
+                - checkbox [ref=e1451] [cursor=pointer]
+            - cell "ageing3" [ref=e1452]:
+              - generic [ref=e1454]: ageing3
+            - cell "493072564" [ref=e1455]:
+              - generic [ref=e1457]: "493072564"
+            - cell "Samsung QM50..." [ref=e1458]:
+              - generic [ref=e1460] [cursor=pointer]: Samsung QM50...
+            - cell "ENT -> HIGH ..." [ref=e1461]:
+              - generic [ref=e1463] [cursor=pointer]: ENT -> HIGH ...
+            - cell "B" [ref=e1464]:
+              - generic [ref=e1466]: B
+            - cell "31,000" [ref=e1467]:
+              - generic [ref=e1469]: 31,000
+            - cell "no" [ref=e1470]:
+              - generic [ref=e1472]: "no"
+            - cell "307/347/347/..." [ref=e1473]:
+              - generic [ref=e1475] [cursor=pointer]: 307/347/347/...
+            - cell "pi_new_005" [ref=e1476]:
+              - generic [ref=e1478]: pi_new_005
+            - cell "120037140" [ref=e1479]:
+              - generic [ref=e1481]: "120037140"
+            - cell "129037140" [ref=e1482]:
+              - generic [ref=e1484]: "129037140"
+            - cell "2DS4JY402678..." [ref=e1485]:
+              - generic [ref=e1487] [cursor=pointer]: 2DS4JY402678...
+          - row "3453456543 491332556 Zoook BT spe... TELECOM ENHA... DOA 33,000 no 307/325/325/... ssr_001 11132024 11132024 -" [ref=e1488]:
+            - cell [ref=e1489]:
+              - generic [ref=e1492]:
+                - generic [ref=e1493]: 󰄱
+                - checkbox [ref=e1494] [cursor=pointer]
+            - cell "3453456543" [ref=e1495]:
+              - generic [ref=e1497]: "3453456543"
+            - cell "491332556" [ref=e1498]:
+              - generic [ref=e1500]: "491332556"
+            - cell "Zoook BT spe..." [ref=e1501]:
+              - generic [ref=e1503] [cursor=pointer]: Zoook BT spe...
+            - cell "TELECOM ENHA..." [ref=e1504]:
+              - generic [ref=e1506] [cursor=pointer]: TELECOM ENHA...
+            - cell "DOA" [ref=e1507]:
+              - generic [ref=e1509]: DOA
+            - cell "33,000" [ref=e1510]:
+              - generic [ref=e1512]: 33,000
+            - cell "no" [ref=e1513]:
+              - generic [ref=e1515]: "no"
+            - cell "307/325/325/..." [ref=e1516]:
+              - generic [ref=e1518] [cursor=pointer]: 307/325/325/...
+            - cell "ssr_001" [ref=e1519]:
+              - generic [ref=e1521]: ssr_001
+            - cell "11132024" [ref=e1522]:
+              - generic [ref=e1524]: "11132024"
+            - cell "11132024" [ref=e1525]:
+              - generic [ref=e1527]: "11132024"
+            - cell "-" [ref=e1528]:
+              - generic [ref=e1529]: "-"
+          - row "t-bcl2406 493665897 Asus Vivoboo... IT -> LAPTOP... DOA 30,000 no 307/307/311/... 007 89654323 89654323 01P60KR01324..." [ref=e1530]:
+            - cell [ref=e1531]:
+              - generic [ref=e1534]:
+                - generic [ref=e1535]: 󰄱
+                - checkbox [ref=e1536] [cursor=pointer]
+            - cell "t-bcl2406" [ref=e1537]:
+              - generic [ref=e1539]: t-bcl2406
+            - cell "493665897" [ref=e1540]:
+              - generic [ref=e1542]: "493665897"
+            - cell "Asus Vivoboo..." [ref=e1543]:
+              - generic [ref=e1545] [cursor=pointer]: Asus Vivoboo...
+            - cell "IT -> LAPTOP..." [ref=e1546]:
+              - generic [ref=e1548] [cursor=pointer]: IT -> LAPTOP...
+            - cell "DOA" [ref=e1549]:
+              - generic [ref=e1551]: DOA
+            - cell "30,000" [ref=e1552]:
+              - generic [ref=e1554]: 30,000
+            - cell "no" [ref=e1555]:
+              - generic [ref=e1557]: "no"
+            - cell "307/307/311/..." [ref=e1558]:
+              - generic [ref=e1560] [cursor=pointer]: 307/307/311/...
+            - cell "007" [ref=e1561]:
+              - generic [ref=e1563]: "007"
+            - cell "89654323" [ref=e1564]:
+              - generic [ref=e1566]: "89654323"
+            - cell "89654323" [ref=e1567]:
+              - generic [ref=e1569]: "89654323"
+            - cell "01P60KR01324..." [ref=e1570]:
+              - generic [ref=e1572] [cursor=pointer]: 01P60KR01324...
+          - row "liqage2 493665954 Asus(i7/16GB... IT -> LAPTOP... E 42,500 no 308/308/308/... 007 23469746 23469746 8S4JY8610" [ref=e1573]:
+            - cell [ref=e1574]:
+              - generic [ref=e1577]:
+                - generic [ref=e1578]: 󰄱
+                - checkbox [ref=e1579] [cursor=pointer]
+            - cell "liqage2" [ref=e1580]:
+              - generic [ref=e1582]: liqage2
+            - cell "493665954" [ref=e1583]:
+              - generic [ref=e1585]: "493665954"
+            - cell "Asus(i7/16GB..." [ref=e1586]:
+              - generic [ref=e1588] [cursor=pointer]: Asus(i7/16GB...
+            - cell "IT -> LAPTOP..." [ref=e1589]:
+              - generic [ref=e1591] [cursor=pointer]: IT -> LAPTOP...
+            - cell "E" [ref=e1592]:
+              - generic [ref=e1594]: E
+            - cell "42,500" [ref=e1595]:
+              - generic [ref=e1597]: 42,500
+            - cell "no" [ref=e1598]:
+              - generic [ref=e1600]: "no"
+            - cell "308/308/308/..." [ref=e1601]:
+              - generic [ref=e1603] [cursor=pointer]: 308/308/308/...
+            - cell "007" [ref=e1604]:
+              - generic [ref=e1606]: "007"
+            - cell "23469746" [ref=e1607]:
+              - generic [ref=e1609]: "23469746"
+            - cell "23469746" [ref=e1610]:
+              - generic [ref=e1612]: "23469746"
+            - cell "8S4JY8610" [ref=e1613]:
+              - generic [ref=e1615]: 8S4JY8610
+          - row "liqage1 493665953 Asus TUF( R7... IT -> LAPTOP... E 42,500 no 307/308/308/... 007 23469746 23469746 8S4JY8609" [ref=e1616]:
+            - cell [ref=e1617]:
+              - generic [ref=e1620]:
+                - generic [ref=e1621]: 󰄱
+                - checkbox [ref=e1622] [cursor=pointer]
+            - cell "liqage1" [ref=e1623]:
+              - generic [ref=e1625]: liqage1
+            - cell "493665953" [ref=e1626]:
+              - generic [ref=e1628]: "493665953"
+            - cell "Asus TUF( R7..." [ref=e1629]:
+              - generic [ref=e1631] [cursor=pointer]: Asus TUF( R7...
+            - cell "IT -> LAPTOP..." [ref=e1632]:
+              - generic [ref=e1634] [cursor=pointer]: IT -> LAPTOP...
+            - cell "E" [ref=e1635]:
+              - generic [ref=e1637]: E
+            - cell "42,500" [ref=e1638]:
+              - generic [ref=e1640]: 42,500
+            - cell "no" [ref=e1641]:
+              - generic [ref=e1643]: "no"
+            - cell "307/308/308/..." [ref=e1644]:
+              - generic [ref=e1646] [cursor=pointer]: 307/308/308/...
+            - cell "007" [ref=e1647]:
+              - generic [ref=e1649]: "007"
+            - cell "23469746" [ref=e1650]:
+              - generic [ref=e1652]: "23469746"
+            - cell "23469746" [ref=e1653]:
+              - generic [ref=e1655]: "23469746"
+            - cell "8S4JY8609" [ref=e1656]:
+              - generic [ref=e1658]: 8S4JY8609
+          - row "liqage6 493665958 HP 250-G8-(1... IT -> LAPTOP... E 42,500 no 308/308/308/... 007 23469746 23469746 8S4JY8614" [ref=e1659]:
+            - cell [ref=e1660]:
+              - generic [ref=e1663]:
+                - generic [ref=e1664]: 󰄱
+                - checkbox [ref=e1665] [cursor=pointer]
+            - cell "liqage6" [ref=e1666]:
+              - generic [ref=e1668]: liqage6
+            - cell "493665958" [ref=e1669]:
+              - generic [ref=e1671]: "493665958"
+            - cell "HP 250-G8-(1..." [ref=e1672]:
+              - generic [ref=e1674] [cursor=pointer]: HP 250-G8-(1...
+            - cell "IT -> LAPTOP..." [ref=e1675]:
+              - generic [ref=e1677] [cursor=pointer]: IT -> LAPTOP...
+            - cell "E" [ref=e1678]:
+              - generic [ref=e1680]: E
+            - cell "42,500" [ref=e1681]:
+              - generic [ref=e1683]: 42,500
+            - cell "no" [ref=e1684]:
+              - generic [ref=e1686]: "no"
+            - cell "308/308/308/..." [ref=e1687]:
+              - generic [ref=e1689] [cursor=pointer]: 308/308/308/...
+            - cell "007" [ref=e1690]:
+              - generic [ref=e1692]: "007"
+            - cell "23469746" [ref=e1693]:
+              - generic [ref=e1695]: "23469746"
+            - cell "23469746" [ref=e1696]:
+              - generic [ref=e1698]: "23469746"
+            - cell "8S4JY8614" [ref=e1699]:
+              - generic [ref=e1701]: 8S4JY8614
+          - row "liquid-1446 493665897 Asus Vivoboo... IT -> LAPTOP... Not Tested 33,000 no 308/370/370/... ssr_001 30092024 30092024 60JH6P670899..." [ref=e1702]:
+            - cell [ref=e1703]:
+              - generic [ref=e1706]:
+                - generic [ref=e1707]: 󰄱
+                - checkbox [ref=e1708] [cursor=pointer]
+            - cell "liquid-1446" [ref=e1709]:
+              - generic [ref=e1711]: liquid-1446
+            - cell "493665897" [ref=e1712]:
+              - generic [ref=e1714]: "493665897"
+            - cell "Asus Vivoboo..." [ref=e1715]:
+              - generic [ref=e1717] [cursor=pointer]: Asus Vivoboo...
+            - cell "IT -> LAPTOP..." [ref=e1718]:
+              - generic [ref=e1720] [cursor=pointer]: IT -> LAPTOP...
+            - cell "Not Tested" [ref=e1721]:
+              - generic [ref=e1723]: Not Tested
+            - cell "33,000" [ref=e1724]:
+              - generic [ref=e1726]: 33,000
+            - cell "no" [ref=e1727]:
+              - generic [ref=e1729]: "no"
+            - cell "308/370/370/..." [ref=e1730]:
+              - generic [ref=e1732] [cursor=pointer]: 308/370/370/...
+            - cell "ssr_001" [ref=e1733]:
+              - generic [ref=e1735]: ssr_001
+            - cell "30092024" [ref=e1736]:
+              - generic [ref=e1738]: "30092024"
+            - cell "30092024" [ref=e1739]:
+              - generic [ref=e1741]: "30092024"
+            - cell "60JH6P670899..." [ref=e1742]:
+              - generic [ref=e1744] [cursor=pointer]: 60JH6P670899...
+          - row "liquidage3 493665938 Dell insp350... IT -> LAPTOP... D 42,500 no 312/0/0/0 007 10069743 12269743 04DS4JY58565" [ref=e1745]:
+            - cell [ref=e1746]:
+              - generic [ref=e1749]:
+                - generic [ref=e1750]: 󰄱
+                - checkbox [ref=e1751] [cursor=pointer]
+            - cell "liquidage3" [ref=e1752]:
+              - generic [ref=e1754]: liquidage3
+            - cell "493665938" [ref=e1755]:
+              - generic [ref=e1757]: "493665938"
+            - cell "Dell insp350..." [ref=e1758]:
+              - generic [ref=e1760] [cursor=pointer]: Dell insp350...
+            - cell "IT -> LAPTOP..." [ref=e1761]:
+              - generic [ref=e1763] [cursor=pointer]: IT -> LAPTOP...
+            - cell "D" [ref=e1764]:
+              - generic [ref=e1766]: D
+            - cell "42,500" [ref=e1767]:
+              - generic [ref=e1769]: 42,500
+            - cell "no" [ref=e1770]:
+              - generic [ref=e1772]: "no"
+            - cell "312/0/0/0" [ref=e1773]:
+              - generic [ref=e1775]: 312/0/0/0
+            - cell "007" [ref=e1776]:
+              - generic [ref=e1778]: "007"
+            - cell "10069743" [ref=e1779]:
+              - generic [ref=e1781]: "10069743"
+            - cell "12269743" [ref=e1782]:
+              - generic [ref=e1784]: "12269743"
+            - cell "04DS4JY58565" [ref=e1785]:
+              - generic [ref=e1787]: 04DS4JY58565
+          - row "Qtqfgo 493665897 Asus Vivoboo... IT -> LAPTOP... DOA 51,000 no 307/377/377/... rs-12345 10013354 10013354 01BN4JY41755..." [ref=e1788]:
+            - cell [ref=e1789]:
+              - generic [ref=e1792]:
+                - generic [ref=e1793]: 󰄱
+                - checkbox [ref=e1794] [cursor=pointer]
+            - cell "Qtqfgo" [ref=e1795]:
+              - generic [ref=e1797]: Qtqfgo
+            - cell "493665897" [ref=e1798]:
+              - generic [ref=e1800]: "493665897"
+            - cell "Asus Vivoboo..." [ref=e1801]:
+              - generic [ref=e1803] [cursor=pointer]: Asus Vivoboo...
+            - cell "IT -> LAPTOP..." [ref=e1804]:
+              - generic [ref=e1806] [cursor=pointer]: IT -> LAPTOP...
+            - cell "DOA" [ref=e1807]:
+              - generic [ref=e1809]: DOA
+            - cell "51,000" [ref=e1810]:
+              - generic [ref=e1812]: 51,000
+            - cell "no" [ref=e1813]:
+              - generic [ref=e1815]: "no"
+            - cell "307/377/377/..." [ref=e1816]:
+              - generic [ref=e1818] [cursor=pointer]: 307/377/377/...
+            - cell "rs-12345" [ref=e1819]:
+              - generic [ref=e1821]: rs-12345
+            - cell "10013354" [ref=e1822]:
+              - generic [ref=e1824]: "10013354"
+            - cell "10013354" [ref=e1825]:
+              - generic [ref=e1827]: "10013354"
+            - cell "01BN4JY41755..." [ref=e1828]:
+              - generic [ref=e1830] [cursor=pointer]: 01BN4JY41755...
+          - row "t-rbvdfvdv 491997494 Samsung Z Fl... TELECOM -> W... DOA 33,000 no 314/0/0/0 007 251120245 251120246 80CG6P689009..." [ref=e1831]:
+            - cell [ref=e1832]:
+              - generic [ref=e1835]:
+                - generic [ref=e1836]: 󰄱
+                - checkbox [ref=e1837] [cursor=pointer]
+            - cell "t-rbvdfvdv" [ref=e1838]:
+              - generic [ref=e1840]: t-rbvdfvdv
+            - cell "491997494" [ref=e1841]:
+              - generic [ref=e1843]: "491997494"
+            - cell "Samsung Z Fl..." [ref=e1844]:
+              - generic [ref=e1846] [cursor=pointer]: Samsung Z Fl...
+            - cell "TELECOM -> W..." [ref=e1847]:
+              - generic [ref=e1849] [cursor=pointer]: TELECOM -> W...
+            - cell "DOA" [ref=e1850]:
+              - generic [ref=e1852]: DOA
+            - cell "33,000" [ref=e1853]:
+              - generic [ref=e1855]: 33,000
+            - cell "no" [ref=e1856]:
+              - generic [ref=e1858]: "no"
+            - cell "314/0/0/0" [ref=e1859]:
+              - generic [ref=e1861]: 314/0/0/0
+            - cell "007" [ref=e1862]:
+              - generic [ref=e1864]: "007"
+            - cell "251120245" [ref=e1865]:
+              - generic [ref=e1867]: "251120245"
+            - cell "251120246" [ref=e1868]:
+              - generic [ref=e1870]: "251120246"
+            - cell "80CG6P689009..." [ref=e1871]:
+              - generic [ref=e1873] [cursor=pointer]: 80CG6P689009...
+          - row "t-exe02 493666506 BAJAJ COOLER... SMALL APPLIA... B 31,000 no 307/335/335/... rs_123 231020247 231020247 -" [ref=e1874]:
+            - cell [ref=e1875]:
+              - generic [ref=e1878]:
+                - generic [ref=e1879]: 󰄱
+                - checkbox [ref=e1880] [cursor=pointer]
+            - cell "t-exe02" [ref=e1881]:
+              - generic [ref=e1883]: t-exe02
+            - cell "493666506" [ref=e1884]:
+              - generic [ref=e1886]: "493666506"
+            - cell "BAJAJ COOLER..." [ref=e1887]:
+              - generic [ref=e1889] [cursor=pointer]: BAJAJ COOLER...
+            - cell "SMALL APPLIA..." [ref=e1890]:
+              - generic [ref=e1892] [cursor=pointer]: SMALL APPLIA...
+            - cell "B" [ref=e1893]:
+              - generic [ref=e1895]: B
+            - cell "31,000" [ref=e1896]:
+              - generic [ref=e1898]: 31,000
+            - cell "no" [ref=e1899]:
+              - generic [ref=e1901]: "no"
+            - cell "307/335/335/..." [ref=e1902]:
+              - generic [ref=e1904] [cursor=pointer]: 307/335/335/...
+            - cell "rs_123" [ref=e1905]:
+              - generic [ref=e1907]: rs_123
+            - cell "231020247" [ref=e1908]:
+              - generic [ref=e1910]: "231020247"
+            - cell "231020247" [ref=e1911]:
+              - generic [ref=e1913]: "231020247"
+            - cell "-" [ref=e1914]:
+              - generic [ref=e1915]: "-"
+          - row "t-brandcdis7... 493665900 Nokia C12 Pr... TELECOM -> W... DOA 33,000 no 307/336/336/... 007 DA900011 8923020 DHFPG1219D90..." [ref=e1916]:
+            - cell [ref=e1917]:
+              - generic [ref=e1920]:
+                - generic [ref=e1921]: 󰄱
+                - checkbox [ref=e1922] [cursor=pointer]
+            - cell "t-brandcdis7..." [ref=e1923]:
+              - generic [ref=e1925] [cursor=pointer]: t-brandcdis7...
+            - cell "493665900" [ref=e1926]:
+              - generic [ref=e1928]: "493665900"
+            - cell "Nokia C12 Pr..." [ref=e1929]:
+              - generic [ref=e1931] [cursor=pointer]: Nokia C12 Pr...
+            - cell "TELECOM -> W..." [ref=e1932]:
+              - generic [ref=e1934] [cursor=pointer]: TELECOM -> W...
+            - cell "DOA" [ref=e1935]:
+              - generic [ref=e1937]: DOA
+            - cell "33,000" [ref=e1938]:
+              - generic [ref=e1940]: 33,000
+            - cell "no" [ref=e1941]:
+              - generic [ref=e1943]: "no"
+            - cell "307/336/336/..." [ref=e1944]:
+              - generic [ref=e1946] [cursor=pointer]: 307/336/336/...
+            - cell "007" [ref=e1947]:
+              - generic [ref=e1949]: "007"
+            - cell "DA900011" [ref=e1950]:
+              - generic [ref=e1952]: DA900011
+            - cell "8923020" [ref=e1953]:
+              - generic [ref=e1955]: "8923020"
+            - cell "DHFPG1219D90..." [ref=e1956]:
+              - generic [ref=e1958] [cursor=pointer]: DHFPG1219D90...
+          - row "t-WT2OrI 493665940 Dell 3511(i3... IT -> LAPTOP... DOA 90,000 no 307/343/343/... new_pi_006 10033668 10033668 02DS4JY37165..." [ref=e1959]:
+            - cell [ref=e1960]:
+              - generic [ref=e1963]:
+                - generic [ref=e1964]: 󰄱
+                - checkbox [ref=e1965] [cursor=pointer]
+            - cell "t-WT2OrI" [ref=e1966]:
+              - generic [ref=e1968]: t-WT2OrI
+            - cell "493665940" [ref=e1969]:
+              - generic [ref=e1971]: "493665940"
+            - cell "Dell 3511(i3..." [ref=e1972]:
+              - generic [ref=e1974] [cursor=pointer]: Dell 3511(i3...
+            - cell "IT -> LAPTOP..." [ref=e1975]:
+              - generic [ref=e1977] [cursor=pointer]: IT -> LAPTOP...
+            - cell "DOA" [ref=e1978]:
+              - generic [ref=e1980]: DOA
+            - cell "90,000" [ref=e1981]:
+              - generic [ref=e1983]: 90,000
+            - cell "no" [ref=e1984]:
+              - generic [ref=e1986]: "no"
+            - cell "307/343/343/..." [ref=e1987]:
+              - generic [ref=e1989] [cursor=pointer]: 307/343/343/...
+            - cell "new_pi_006" [ref=e1990]:
+              - generic [ref=e1992]: new_pi_006
+            - cell "10033668" [ref=e1993]:
+              - generic [ref=e1995]: "10033668"
+            - cell "10033668" [ref=e1996]:
+              - generic [ref=e1998]: "10033668"
+            - cell "02DS4JY37165..." [ref=e1999]:
+              - generic [ref=e2001] [cursor=pointer]: 02DS4JY37165...
+          - row "ageing2 490024519 INALSA DRY I... SMALL APPLIA... C 32,000 no 307/347/347/... pi_new_005 120037140 129037140 -" [ref=e2002]:
+            - cell [ref=e2003]:
+              - generic [ref=e2006]:
+                - generic [ref=e2007]: 󰄱
+                - checkbox [ref=e2008] [cursor=pointer]
+            - cell "ageing2" [ref=e2009]:
+              - generic [ref=e2011]: ageing2
+            - cell "490024519" [ref=e2012]:
+              - generic [ref=e2014]: "490024519"
+            - cell "INALSA DRY I..." [ref=e2015]:
+              - generic [ref=e2017] [cursor=pointer]: INALSA DRY I...
+            - cell "SMALL APPLIA..." [ref=e2018]:
+              - generic [ref=e2020] [cursor=pointer]: SMALL APPLIA...
+            - cell "C" [ref=e2021]:
+              - generic [ref=e2023]: C
+            - cell "32,000" [ref=e2024]:
+              - generic [ref=e2026]: 32,000
+            - cell "no" [ref=e2027]:
+              - generic [ref=e2029]: "no"
+            - cell "307/347/347/..." [ref=e2030]:
+              - generic [ref=e2032] [cursor=pointer]: 307/347/347/...
+            - cell "pi_new_005" [ref=e2033]:
+              - generic [ref=e2035]: pi_new_005
+            - cell "120037140" [ref=e2036]:
+              - generic [ref=e2038]: "120037140"
+            - cell "129037140" [ref=e2039]:
+              - generic [ref=e2041]: "129037140"
+            - cell "-" [ref=e2042]:
+              - generic [ref=e2043]: "-"
+          - row "t-LyjvLZ 493665943 Dell 3511(i5... IT -> LAPTOP... DOA 1,20,000 no 308/348/348/... rsr_001 10066490 10066490 02DS4JY33786..." [ref=e2044]:
+            - cell [ref=e2045]:
+              - generic [ref=e2048]:
+                - generic [ref=e2049]: 󰄱
+                - checkbox [ref=e2050] [cursor=pointer]
+            - cell "t-LyjvLZ" [ref=e2051]:
+              - generic [ref=e2053]: t-LyjvLZ
+            - cell "493665943" [ref=e2054]:
+              - generic [ref=e2056]: "493665943"
+            - cell "Dell 3511(i5..." [ref=e2057]:
+              - generic [ref=e2059] [cursor=pointer]: Dell 3511(i5...
+            - cell "IT -> LAPTOP..." [ref=e2060]:
+              - generic [ref=e2062] [cursor=pointer]: IT -> LAPTOP...
+            - cell "DOA" [ref=e2063]:
+              - generic [ref=e2065]: DOA
+            - cell "1,20,000" [ref=e2066]:
+              - generic [ref=e2068]: 1,20,000
+            - cell "no" [ref=e2069]:
+              - generic [ref=e2071]: "no"
+            - cell "308/348/348/..." [ref=e2072]:
+              - generic [ref=e2074] [cursor=pointer]: 308/348/348/...
+            - cell "rsr_001" [ref=e2075]:
+              - generic [ref=e2077]: rsr_001
+            - cell "10066490" [ref=e2078]:
+              - generic [ref=e2080]: "10066490"
+            - cell "10066490" [ref=e2081]:
+              - generic [ref=e2083]: "10066490"
+            - cell "02DS4JY33786..." [ref=e2084]:
+              - generic [ref=e2086] [cursor=pointer]: 02DS4JY33786...
+      - generic [ref=e2089]:
+        - generic [ref=e2090]:
+          - generic [ref=e2091]: Rows Per Page
+          - generic [ref=e2092]:
+            - combobox [ref=e2094] [cursor=pointer]:
+              - generic [ref=e2096] [cursor=pointer]:
+                - generic [ref=e2098] [cursor=pointer]: "50"
+                - textbox "Open": "50"
+              - generic [ref=e2100] [cursor=pointer]: 󰍝
+            - alert [ref=e2101]
+        - generic [ref=e2104]: 1 Item Selected
+        - generic [ref=e2106]:
+          - generic [ref=e2107]: Showing Results 1 - 42 of 42
+          - navigation "Pagination Navigation" [ref=e2109]:
+            - list [ref=e2110]:
+              - listitem [ref=e2111]:
+                - button "Previous page" [disabled]:
+                  - generic:
+                    - generic: 󰅁
+              - listitem [ref=e2112]:
+                - button "Page 1, Current page" [disabled]:
+                  - generic: "1"
+              - listitem [ref=e2113]:
+                - button "Next page" [disabled]:
+                  - generic:
+                    - generic: 󰅂
+  - generic:
+    - tooltip
+    - tooltip
+    - tooltip
+    - listbox [ref=e2115]:
+      - generic [ref=e2118] [cursor=pointer]: Contracted
+      - generic [ref=e2121] [cursor=pointer]: Competitive Bidding
+```

@@ -1,0 +1,21 @@
+{
+  "name": "playwright-automation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.51.1",
+    "@types/node": "^22.14.1",
+    "@wdio/allure-reporter": "^9.20.0",
+    "allure-playwright": "^3.4.1",
+    "appium": "^1.22.3",
+    "webdriverio": "^9.19.2"
+  },
+  "dependencies": {
+    "exceljs": "^4.4.0"
+  }
+}
