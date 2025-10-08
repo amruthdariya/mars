@@ -35,7 +35,7 @@ jobs:
 
       # 6️⃣ Upload Allure results
       - name: Upload Allure Results
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: allure-results
           path: allure-results/
@@ -43,7 +43,7 @@ jobs:
       # 7️⃣ Upload screenshots & videos on failure
       - name: Upload Playwright artifacts
         if: failure()
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: playwright-artifacts
           path: |
@@ -56,7 +56,7 @@ jobs:
 
       # 9️⃣ Upload Allure report
       - name: Upload Allure report
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: allure-report
           path: allure-report/
