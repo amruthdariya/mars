@@ -18,16 +18,14 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: 23    # Match your project Node version
-
-      # 3️⃣ Install dependencies
-      - name: Install dependencies
-        run: npm ci
+          node-version: 20    # Match your project Node version
 
       # 4️⃣ Install Playwright browsers
       - name: Install Playwright browsers
         run: npx playwright install --with-deps
+   
 
+     
       # 7️⃣ Upload screenshots & videos on failure
       - name: Upload Playwright artifacts
         if: failure()
@@ -38,16 +36,22 @@ jobs:
             test-results/screenshots/
             test-results/videos/
             test-results/traces/
-    # 🔟 Install Appium Server
+     # 🔟 Install Appium Server
       - name: Install Appium globally
-        run: npm install -g appium
-
-     # 1️⃣1️⃣ Start Appium globally
+        run: 
+          npm install -g appium
+          appium driver install uiautomator2
+     
+      # 3️⃣ Install dependencies
+      - name: Install dependencies
+        run: npm ci
+     
+        # 1️⃣1️⃣ Start Appium globally
       - name: Start Appium Server
         run: |
-          nohup appium >/dev/null 2>&1 &
-          npx wait-port 4723 
-        timeout-minutes: 2    
+          nohup appium --port 4723 > appium.log 2>&1 &
+          sleep 5  # Give Appium some time to start
+          echo "Appium server started"
         
     # 5️⃣ Run tests and generate Allure results
       - name: Run Playwright tests
