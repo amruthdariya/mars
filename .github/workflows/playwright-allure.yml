@@ -47,12 +47,21 @@ jobs:
         run: npm ci
      
         # 1️⃣1️⃣ Start Appium globally
-      - name: Start Appium Server
-        run: |
+      - name: Setup and Run Android Emulator
+        uses: reactivecircus/android-emulator-runner@v2
+        with:
+         api-level: 30
+         arch: x86_64
+         profile: pixel_4
+         target: default
+         force-avd-creation: true
+         emulator-options: -no-window -gpu swiftshader_indirect -noaudio
+         script: |
           nohup appium --port 4723 > appium.log 2>&1 &
-          sleep 5  # Give Appium some time to start
-          echo "Appium server started"
-        
+          sleep 10
+      - name: Verify Appium Drivers
+        run: appium driver list
+        continue-on-error: true
     # 5️⃣ Run tests and generate Allure results
       - name: Run Playwright tests
         run: npx playwright test --reporter=allure-playwright
@@ -69,3 +78,4 @@ jobs:
           name: allure-results
           path: allure-results/
 
+  
